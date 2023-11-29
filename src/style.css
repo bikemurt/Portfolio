@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50; /* Steel Grey */
+    color: #ecf0f1; /* Light Grey */
+}
+
+header {
+    background-color: #111; /* Dark Background Color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 5px 0;
+    color: #3498db; /* Dark Blue */
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin: 5px 0;
+    color: #bdc3c7; /* Silver */
+}
+
+.menu-container {
+    background-color: #333; /* Dark background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Adjust the height as needed */
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    margin: 0 15px; /* Adjust the spacing between menu items */
+}
+
+.current-page a {
+    font-weight: bold; /* Bold text for the current page */
+    color: #ffcc00; /* Custom color for the current page */
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #fff; /* Text color */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.menu-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+section {
+    height: 75vh;
+    text-align: center;
+}
+section h1
+{
+    padding-top: 15px;
+}
+
+#section1 {
+    position: relative;
+    background: linear-gradient(rgba(72, 91, 122, 0.8), rgba(72, 91, 122, 1)), url('../images/fox.png') center/cover repeat-y;
+}
+
+#section2 {
+    position: relative;
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 1)), url('../images/fox.png') center/cover repeat-y;
+}
+
+#section3 {
+    position: relative;
+    background: linear-gradient(rgba(0, 31, 63, 0.8), rgba(0, 31, 63, 1)), url('../images/fox.png') center/cover repeat-y;
+}
+
+.model-container {
+    width: 700px;
+    height: 500px;
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #ecf0f1; /* Light Grey */
+}
+
+p {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #bdc3c7; /* Silver */
+}
+
+.bullet-list {
+    width: 700px;
+    text-align: left;
+    margin: 0px auto;
+    list-style-type: square;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.bullet-list li {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+
+a {
+    text-decoration: underline; /* Underline on hover */
+    color: #fff; /* Text color */
+}
+
+a:active {
+    color: white;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Burt - Teaching</title>
+    <script src="../src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+    <header>
+        <h1>Michael Burt</h1>
+        <h2>Teaching</h2>
+    </header>
+    <div class="menu-container">
+        <ul class="menu">
+            <li class="menu-item"><a href="../">3D Art</a></li>
+            <li class="menu-item current-page"><a href="./">Teaching</a></li>
+            <li class="menu-item"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+	
+    <section id="section1">
+        <h1>x1</h1>
+        <p>x</p>
+    </section>
+
+    <section id="section2">
+        <h1>x2</h1>
+        <p>x</p>
+    </section>
+
+    <section id="section3">
+        <h1>Artwork Section 3</h1>
+        <p>description goes here.</p>
+    </section>
+
+    <p style="text-align: center; "><i>&copy; 2023 Michael Burt. Made with three.js, jQuery, NodeJS, and Vite</i></p>
+    
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                parallax();
+            });
+
+            function parallax() {
+                var scrollPosition = $(window).scrollTop();
+
+                $('#section1').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
+                $('#section2').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
+                $('#section3').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
+            }
+        });
+    </script>
+</body>
+</html>

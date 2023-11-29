@@ -1,0 +1,1529 @@
+{
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v3.6.27",
+		"version":"2.0"
+	},
+	"scene":0,
+	"scenes":[
+		{
+			"extras":{
+				"automirror":{
+					"Use_Matcap":1
+				},
+				"SUBSTANCE_SHP_01_cycles_std":{},
+				"SUBSTANCE_SHO_01_cycles_std":{},
+				"loaded_sbsars":[
+					{
+						"id":"68BAF0A2-5967-49ED-948D-1C015C540F3C",
+						"name":"cross_brushed_copper",
+						"filename":"cross_brushed_copper.sbsar",
+						"filepath":"C:\\Users\\mjare\\OneDrive\\Desktop\\Blender\\Substance3D\\cross_brushed_copper.sbsar",
+						"suffix":"",
+						"icon":"NONE",
+						"graphs":[
+							{
+								"index":"0",
+								"id":"2147483649",
+								"name":"Cross Brushed Copper",
+								"material":{
+									"name":"cross_brushed_copper",
+									"shader":"01 cycles_std"
+								},
+								"parms_class_name":"SUBSTANCE_SGP_68BAF0A2-5967-49ED-948D-1C015C540F3C",
+								"outputs_class_name":"SUBSTANCE_SGO_68BAF0A2-5967-49ED-948D-1C015C540F3C",
+								"shader_preset_callback":1,
+								"shader_preset_list":0,
+								"tiling":{
+									"x":3.0,
+									"y":3.0,
+									"z":3.0,
+									"linked":1
+								},
+								"physical_size":{
+									"x":1.0,
+									"y":1.0,
+									"z":0.0
+								},
+								"outputsize_exists":1,
+								"randomseed_exists":1,
+								"parm_groups":[
+									{
+										"index":0,
+										"name":"General",
+										"collapsed":1
+									},
+									{
+										"index":1,
+										"name":"Cross Brushed Filter",
+										"collapsed":1
+									},
+									{
+										"index":2,
+										"name":"Channels"
+									},
+									{
+										"index":3,
+										"name":"Technical parameters"
+									}
+								],
+								"presets":[
+									{
+										"index":"0",
+										"name":"Default",
+										"value":"<sbspreset pkgurl=\"pkg://cross_brushed_copper\" label=\"\">\n <presetinput identifier=\"$outputsize\" uid=\"1568972014\" type=\"8\" value=\"10,10\" />\n<presetinput identifier=\"normal_format\" uid=\"568504185\" type=\"4\" value=\"1\" />\n</sbspreset>",
+										"icon":"LOCKED",
+										"embedded":1
+									},
+									{
+										"index":"1",
+										"name":"Custom",
+										"value":" <sbspreset pkgurl=\"pkg://cross_brushed_copper\" label=\"\" >\n  <presetinput identifier=\"$outputsize\" uid=\"1568972014\" type=\"8\" value=\"10,10\" />\n  <presetinput identifier=\"copper_color_variation\" uid=\"903535617\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"copper_color_irregularities\" uid=\"903535647\" type=\"0\" value=\"0.4\" />\n  <presetinput identifier=\"copper_roughness\" uid=\"903535645\" type=\"0\" value=\"0.25\" />\n  <presetinput identifier=\"dirt\" uid=\"903535641\" type=\"0\" value=\"0.6\" />\n  <presetinput identifier=\"oxidation_global\" uid=\"903535639\" type=\"0\" value=\"0.1\" />\n  <presetinput identifier=\"oxidation_localized\" uid=\"903535637\" type=\"0\" value=\"0.1\" />\n  <presetinput identifier=\"scratches\" uid=\"903535635\" type=\"0\" value=\"0.2\" />\n  <presetinput identifier=\"brushed_intensity\" uid=\"903429928\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"brushed_size\" uid=\"903429926\" type=\"0\" value=\"0.1\" />\n  <presetinput identifier=\"brushed_orientation\" uid=\"903429924\" type=\"0\" value=\"0.208333\" />\n  <presetinput identifier=\"brushed_roughness_variation\" uid=\"903429922\" type=\"0\" value=\"0.1\" />\n  <presetinput identifier=\"hue_shift\" uid=\"1490560295\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"saturation\" uid=\"1490560320\" type=\"0\" value=\"0.4\" />\n  <presetinput identifier=\"normal_format\" uid=\"568504185\" type=\"4\" value=\"1\" />\n </sbspreset>\n",
+										"icon":"UNLOCKED",
+										"embedded":0
+									},
+									{
+										"index":"2",
+										"name":"Shiny Copper Cross Brushed",
+										"value":"<sbspreset pkgurl=\"pkg://cross_brushed_copper\" label=\"Shiny Copper Cross Brushed\">\n  <presetinput identifier=\"copper_color_variation\" uid=\"903535617\" type=\"0\" value=\"0.01\" />\n  <presetinput identifier=\"copper_color_irregularities\" uid=\"903535647\" type=\"0\" value=\"0.7\" />\n  <presetinput identifier=\"copper_roughness\" uid=\"903535645\" type=\"0\" value=\"0.173\" />\n  <presetinput identifier=\"copper_roughness_variation\" uid=\"903535643\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"dirt\" uid=\"903535641\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"oxidation_global\" uid=\"903535639\" type=\"0\" value=\"0.21\" />\n  <presetinput identifier=\"oxidation_localized\" uid=\"903535637\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"scratches\" uid=\"903535635\" type=\"0\" value=\"0.44\" />\n  <presetinput identifier=\"scratches_intensity\" uid=\"903535633\" type=\"0\" value=\"0.96\" />\n  <presetinput identifier=\"relief_variation\" uid=\"903535727\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"brushed_intensity\" uid=\"903429928\" type=\"0\" value=\"0.99\" />\n  <presetinput identifier=\"brushed_size\" uid=\"903429926\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"brushed_orientation\" uid=\"903429924\" type=\"0\" value=\"0.0416667\" />\n  <presetinput identifier=\"brushed_roughness_variation\" uid=\"903429922\" type=\"0\" value=\"0.05\" />\n  <presetinput identifier=\"normal_blend_format\" uid=\"903429920\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"height_blend_intensity\" uid=\"903429950\" type=\"0\" value=\"0.41\" />\n  <presetinput identifier=\"use_mask_input\" uid=\"903429948\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_diffuse\" uid=\"793740400\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_basecolor\" uid=\"568507482\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_normal\" uid=\"568507481\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_specular\" uid=\"793740367\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_glossiness\" uid=\"793740366\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_roughness\" uid=\"568507477\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_metallic\" uid=\"568507476\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_height\" uid=\"568507474\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_ambientocclusion\" uid=\"704770871\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"luminosity\" uid=\"1490560341\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"contrast\" uid=\"660466807\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"hue_shift\" uid=\"1490560295\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"saturation\" uid=\"1490560320\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"normal_intensity\" uid=\"1490672180\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"normal_format\" uid=\"568504185\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"height_range\" uid=\"553244181\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"height_position\" uid=\"553244260\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"ambientocclusion_intensity\" uid=\"715836062\" type=\"0\" value=\"0.5\" />\n <presetinput identifier=\"$outputsize\" uid=\"1568972014\" type=\"8\" value=\"10,10\" />\n<presetinput identifier=\"normal_format\" uid=\"568504185\" type=\"4\" value=\"1\" />\n</sbspreset>",
+										"icon":"LOCKED",
+										"embedded":1
+									},
+									{
+										"index":"3",
+										"name":"Oxidized Copper Cross Brushed",
+										"value":"<sbspreset pkgurl=\"pkg://cross_brushed_copper\" label=\"Oxidized Copper Cross Brushed\">\n  <presetinput identifier=\"copper_color_variation\" uid=\"903535617\" type=\"0\" value=\"0.52\" />\n  <presetinput identifier=\"copper_color_irregularities\" uid=\"903535647\" type=\"0\" value=\"0.7\" />\n  <presetinput identifier=\"copper_roughness\" uid=\"903535645\" type=\"0\" value=\"0.08\" />\n  <presetinput identifier=\"copper_roughness_variation\" uid=\"903535643\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"dirt\" uid=\"903535641\" type=\"0\" value=\"0.43\" />\n  <presetinput identifier=\"oxidation_global\" uid=\"903535639\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"oxidation_localized\" uid=\"903535637\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"scratches\" uid=\"903535635\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"scratches_intensity\" uid=\"903535633\" type=\"0\" value=\"0.96\" />\n  <presetinput identifier=\"relief_variation\" uid=\"903535727\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"brushed_intensity\" uid=\"903429928\" type=\"0\" value=\"0.99\" />\n  <presetinput identifier=\"brushed_size\" uid=\"903429926\" type=\"0\" value=\"0.29\" />\n  <presetinput identifier=\"brushed_orientation\" uid=\"903429924\" type=\"0\" value=\"0.0416667\" />\n  <presetinput identifier=\"brushed_roughness_variation\" uid=\"903429922\" type=\"0\" value=\"0.05\" />\n  <presetinput identifier=\"normal_blend_format\" uid=\"903429920\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"height_blend_intensity\" uid=\"903429950\" type=\"0\" value=\"0.41\" />\n  <presetinput identifier=\"use_mask_input\" uid=\"903429948\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_diffuse\" uid=\"793740400\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_basecolor\" uid=\"568507482\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_normal\" uid=\"568507481\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_specular\" uid=\"793740367\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_glossiness\" uid=\"793740366\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_roughness\" uid=\"568507477\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_metallic\" uid=\"568507476\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_height\" uid=\"568507474\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_ambientocclusion\" uid=\"704770871\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"luminosity\" uid=\"1490560341\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"contrast\" uid=\"660466807\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"hue_shift\" uid=\"1490560295\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"saturation\" uid=\"1490560320\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"normal_intensity\" uid=\"1490672180\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"normal_format\" uid=\"568504185\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"height_range\" uid=\"553244181\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"height_position\" uid=\"553244260\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"ambientocclusion_intensity\" uid=\"715836062\" type=\"0\" value=\"0.5\" />\n <presetinput identifier=\"$outputsize\" uid=\"1568972014\" type=\"8\" value=\"10,10\" />\n<presetinput identifier=\"normal_format\" uid=\"568504185\" type=\"4\" value=\"1\" />\n</sbspreset>",
+										"icon":"LOCKED",
+										"embedded":1
+									},
+									{
+										"index":"4",
+										"name":"Rust Picked Copper Cross Brushed",
+										"value":"<sbspreset pkgurl=\"pkg://cross_brushed_copper\" label=\"Rust Picked Copper Cross Brushed\">\n  <presetinput identifier=\"copper_color_variation\" uid=\"903535617\" type=\"0\" value=\"0.83\" />\n  <presetinput identifier=\"copper_color_irregularities\" uid=\"903535647\" type=\"0\" value=\"0.15\" />\n  <presetinput identifier=\"copper_roughness\" uid=\"903535645\" type=\"0\" value=\"0.34\" />\n  <presetinput identifier=\"copper_roughness_variation\" uid=\"903535643\" type=\"0\" value=\"0.14\" />\n  <presetinput identifier=\"dirt\" uid=\"903535641\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"oxidation_global\" uid=\"903535639\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"oxidation_localized\" uid=\"903535637\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"scratches\" uid=\"903535635\" type=\"0\" value=\"0.53\" />\n  <presetinput identifier=\"scratches_intensity\" uid=\"903535633\" type=\"0\" value=\"0.96\" />\n  <presetinput identifier=\"relief_variation\" uid=\"903535727\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"brushed_intensity\" uid=\"903429928\" type=\"0\" value=\"0.46\" />\n  <presetinput identifier=\"brushed_size\" uid=\"903429926\" type=\"0\" value=\"0.88\" />\n  <presetinput identifier=\"brushed_orientation\" uid=\"903429924\" type=\"0\" value=\"0.663889\" />\n  <presetinput identifier=\"brushed_roughness_variation\" uid=\"903429922\" type=\"0\" value=\"0.05\" />\n  <presetinput identifier=\"normal_blend_format\" uid=\"903429920\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"height_blend_intensity\" uid=\"903429950\" type=\"0\" value=\"0.41\" />\n  <presetinput identifier=\"use_mask_input\" uid=\"903429948\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_diffuse\" uid=\"793740400\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_basecolor\" uid=\"568507482\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_normal\" uid=\"568507481\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_specular\" uid=\"793740367\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_glossiness\" uid=\"793740366\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"channel_roughness\" uid=\"568507477\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_metallic\" uid=\"568507476\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_height\" uid=\"568507474\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"channel_ambientocclusion\" uid=\"704770871\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"luminosity\" uid=\"1490560341\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"contrast\" uid=\"660466807\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"hue_shift\" uid=\"1490560295\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"saturation\" uid=\"1490560320\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"normal_intensity\" uid=\"1490672180\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"normal_format\" uid=\"568504185\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"height_range\" uid=\"553244181\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"height_position\" uid=\"553244260\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"ambientocclusion_intensity\" uid=\"715836062\" type=\"0\" value=\"0.5\" />\n <presetinput identifier=\"$outputsize\" uid=\"1568972014\" type=\"8\" value=\"10,10\" />\n<presetinput identifier=\"normal_format\" uid=\"568504185\" type=\"4\" value=\"1\" />\n</sbspreset>",
+										"icon":"LOCKED",
+										"embedded":1
+									}
+								],
+								"parms":[
+									{
+										"name":"$outputsize",
+										"label":"$outputsize",
+										"type":"integer2",
+										"widget":"NoWidget",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"$randomseed",
+										"label":"$randomseed",
+										"type":"integer",
+										"widget":"NoWidget",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"copper_color_variation",
+										"label":"Copper Color Variation",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"copper_color_irregularities",
+										"label":"Copper Color Irregularities",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"copper_roughness",
+										"label":"Copper Roughness",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"copper_roughness_variation",
+										"label":"Copper Roughness Variation",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"dirt",
+										"label":"Dirt",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"oxidation_global",
+										"label":"Oxidation Global",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"oxidation_localized",
+										"label":"Oxidation Localized",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"scratches",
+										"label":"Scratches",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"scratches_intensity",
+										"label":"Scratches Intensity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"relief_variation",
+										"label":"Relief Variation",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"brushed_intensity",
+										"label":"Brushed Intensity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Cross Brushed Filter",
+										"visible":1
+									},
+									{
+										"name":"brushed_size",
+										"label":"Brushed Size",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Cross Brushed Filter",
+										"visible":1
+									},
+									{
+										"name":"brushed_orientation",
+										"label":"Brushed Orientation",
+										"type":"float",
+										"widget":"Angle",
+										"group":"Cross Brushed Filter",
+										"visible":1
+									},
+									{
+										"name":"brushed_roughness_variation",
+										"label":"Brushed Roughness Variation",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Cross Brushed Filter",
+										"visible":1
+									},
+									{
+										"name":"normal_blend_format",
+										"label":"Normal Blend Format",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Cross Brushed Filter",
+										"visible":1
+									},
+									{
+										"name":"height_blend_intensity",
+										"label":"Height Blend Intensity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Cross Brushed Filter",
+										"visible":1
+									},
+									{
+										"name":"use_mask_input",
+										"label":"Use Mask Input",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Cross Brushed Filter",
+										"visible":1
+									},
+									{
+										"name":"channel_diffuse",
+										"label":"Diffuse",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Channels",
+										"visible":1
+									},
+									{
+										"name":"channel_basecolor",
+										"label":"Base Color",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Channels",
+										"visible":1
+									},
+									{
+										"name":"channel_normal",
+										"label":"Normal",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Channels",
+										"visible":1
+									},
+									{
+										"name":"channel_specular",
+										"label":"Specular",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Channels",
+										"visible":1
+									},
+									{
+										"name":"channel_glossiness",
+										"label":"Glossiness",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Channels",
+										"visible":1
+									},
+									{
+										"name":"channel_roughness",
+										"label":"Roughness",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Channels",
+										"visible":1
+									},
+									{
+										"name":"channel_metallic",
+										"label":"Metallic",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Channels",
+										"visible":1
+									},
+									{
+										"name":"channel_height",
+										"label":"Height",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Channels",
+										"visible":1
+									},
+									{
+										"name":"channel_ambientocclusion",
+										"label":"Ambient Occlusion",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"Channels",
+										"visible":1
+									},
+									{
+										"name":"luminosity",
+										"label":"Luminosity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"contrast",
+										"label":"Contrast",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"hue_shift",
+										"label":"Hue Shift",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"saturation",
+										"label":"Saturation",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"normal_intensity",
+										"label":"Normal Intensity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"normal_format",
+										"label":"Normal Format",
+										"type":"integer",
+										"widget":"Combobox",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"height_range",
+										"label":"Height Range",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"height_position",
+										"label":"Height Position",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"ambientocclusion_intensity",
+										"label":"Ambient Occlusion Intensity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"mask_input",
+										"label":"Mask Input",
+										"type":"image",
+										"widget":"Image",
+										"group":"General",
+										"visible":1
+									}
+								],
+								"outputs":[
+									{
+										"id":"794077196",
+										"name":"diffuse",
+										"identifier":"diffuse",
+										"label":"Diffuse",
+										"usage":"diffuse",
+										"filepath":"//substance tx/cross_brushed_copper/cross_brushed_copper_diffuse.tga",
+										"filename":"cross_brushed_copper_diffuse.tga"
+									},
+									{
+										"id":"568503442",
+										"name":"baseColor",
+										"identifier":"basecolor",
+										"label":"Base Color",
+										"usage":"baseColor",
+										"filepath":"//substance tx/cross_brushed_copper/cross_brushed_copper_baseColor.tga",
+										"filename":"cross_brushed_copper_baseColor.tga"
+									},
+									{
+										"id":"568503440",
+										"name":"normal",
+										"identifier":"normal",
+										"label":"Normal",
+										"usage":"normal",
+										"filepath":"//substance tx/cross_brushed_copper/cross_brushed_copper_normal.png",
+										"filename":"cross_brushed_copper_normal.png"
+									},
+									{
+										"id":"794077192",
+										"name":"specular",
+										"identifier":"specular",
+										"label":"Specular",
+										"usage":"specular",
+										"filepath":"//substance tx/cross_brushed_copper/cross_brushed_copper_specular.tga",
+										"filename":"cross_brushed_copper_specular.tga"
+									},
+									{
+										"id":"794077189",
+										"name":"glossiness",
+										"identifier":"glossiness",
+										"label":"Glossiness",
+										"usage":"glossiness",
+										"filepath":"//substance tx/cross_brushed_copper/cross_brushed_copper_glossiness.tga",
+										"filename":"cross_brushed_copper_glossiness.tga"
+									},
+									{
+										"id":"568503530",
+										"name":"roughness",
+										"identifier":"roughness",
+										"label":"Roughness",
+										"usage":"roughness",
+										"filepath":"//substance tx/cross_brushed_copper/cross_brushed_copper_roughness.tga",
+										"filename":"cross_brushed_copper_roughness.tga"
+									},
+									{
+										"id":"568503528",
+										"name":"metallic",
+										"identifier":"metallic",
+										"label":"Metallic",
+										"usage":"metallic",
+										"filepath":"//substance tx/cross_brushed_copper/cross_brushed_copper_metallic.tga",
+										"filename":"cross_brushed_copper_metallic.tga"
+									},
+									{
+										"id":"568503524",
+										"name":"height",
+										"identifier":"height",
+										"label":"Height",
+										"usage":"height",
+										"filepath":"//substance tx/cross_brushed_copper/cross_brushed_copper_height.png",
+										"filename":"cross_brushed_copper_height.png"
+									},
+									{
+										"id":"704770248",
+										"name":"ambientOcclusion",
+										"identifier":"ambientocclusion",
+										"label":"Ambient Occlusion",
+										"usage":"ambientOcclusion",
+										"filepath":"//substance tx/cross_brushed_copper/cross_brushed_copper_ambientOcclusion.tga",
+										"filename":"cross_brushed_copper_ambientOcclusion.tga"
+									}
+								],
+								"parms_data":"{\"sbsar_id\": \"68BAF0A2-5967-49ED-948D-1C015C540F3C\", \"parms\": {\"$outputsize\": [10, 10], \"$outputsize_linked\": true, \"$randomseed\": 0, \"copper_color_variation\": 0.5, \"copper_color_irregularities\": 0.4000000059604645, \"copper_roughness\": 0.25, \"copper_roughness_variation\": 0.0, \"dirt\": 0.6000000238418579, \"oxidation_global\": 0.10000000149011612, \"oxidation_localized\": 0.10000000149011612, \"scratches\": 0.20000000298023224, \"scratches_intensity\": 0.5, \"relief_variation\": 0.0, \"brushed_intensity\": 0.5, \"brushed_size\": 0.10000000149011612, \"brushed_orientation\": 0.20833332964436266, \"brushed_roughness_variation\": 0.10000000149011612, \"normal_blend_format\": 0, \"height_blend_intensity\": 0.4099999964237213, \"use_mask_input\": 0, \"channel_diffuse\": 0, \"channel_basecolor\": 1, \"channel_normal\": 1, \"channel_specular\": 0, \"channel_glossiness\": 0, \"channel_roughness\": 1, \"channel_metallic\": 1, \"channel_height\": 1, \"channel_ambientocclusion\": 1, \"luminosity\": 0.5, \"contrast\": 0.0, \"hue_shift\": 0.5, \"saturation\": 0.4000000059604645, \"normal_intensity\": 0.5, \"normal_format\": 1, \"height_range\": 1.0, \"height_position\": 0.5, \"ambientocclusion_intensity\": 0.5, \"mask_input\": \"\"}}",
+								"outputs_data":"{\"sbsar_id\": \"68BAF0A2-5967-49ED-948D-1C015C540F3C\", \"outputs\": {\"diffuse\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"baseColor\": {\"shader_enabled\": true, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"normal\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": \"16\"}, \"specular\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"glossiness\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"roughness\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"metallic\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"height\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": \"16\"}, \"ambientOcclusion\": {\"shader_enabled\": false, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}}}",
+								"preset_callback":1,
+								"presets_list":1
+							}
+						],
+						"loading":"NONE",
+						"load_success":1,
+						"object":"{\"id\": \"68BAF0A2-5967-49ED-948D-1C015C540F3C\", \"name\": \"cross_brushed_copper\", \"filename\": \"cross_brushed_copper.sbsar\", \"filepath\": \"C:\\\\Users\\\\mjare\\\\OneDrive\\\\Desktop\\\\Blender\\\\Substance3D\\\\cross_brushed_copper.sbsar\", \"graphs\": [{\"id\": 2147483649, \"name\": \"Cross Brushed Copper\", \"mat_name\": \"cross_brushed_copper\", \"parms_groups\": {\"General\": [\"copper_color_variation\", \"copper_color_irregularities\", \"copper_roughness\", \"copper_roughness_variation\", \"dirt\", \"oxidation_global\", \"oxidation_localized\", \"scratches\", \"scratches_intensity\", \"relief_variation\", \"mask_input\"], \"Cross Brushed Filter\": [\"brushed_intensity\", \"brushed_size\", \"brushed_orientation\", \"brushed_roughness_variation\", \"normal_blend_format\", \"height_blend_intensity\", \"use_mask_input\"], \"Channels\": [\"channel_diffuse\", \"channel_basecolor\", \"channel_normal\", \"channel_specular\", \"channel_glossiness\", \"channel_roughness\", \"channel_metallic\", \"channel_height\", \"channel_ambientocclusion\"], \"Technical parameters\": [\"luminosity\", \"contrast\", \"hue_shift\", \"saturation\", \"normal_intensity\", \"normal_format\", \"height_range\", \"height_position\", \"ambientocclusion_intensity\"]}, \"physicalSize\": [1.0, 1.0, 0.0], \"$randomseed_exists\": true, \"$outputsize_exists\": true, \"parms\": {\"$outputsize\": {\"id\": 1568972014, \"identifier\": \"$outputsize\", \"label\": \"$outputsize\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer2\", \"guiWidget\": \"NoWidget\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": true, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": [10, 10], \"value\": [10, 10], \"maxValue\": [12, 12], \"minValue\": [5, 5], \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"$randomseed\": {\"id\": 183929532, \"identifier\": \"$randomseed\", \"label\": \"$randomseed\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"NoWidget\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": true, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 32767, \"minValue\": 0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"copper_color_variation\": {\"id\": 903535617, \"identifier\": \"copper_color_variation\", \"label\": \"Copper Color Variation\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.949999988079071, \"value\": 0.949999988079071, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"copper_color_irregularities\": {\"id\": 903535647, \"identifier\": \"copper_color_irregularities\", \"label\": \"Copper Color Irregularities\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.20000000298023224, \"value\": 0.20000000298023224, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"copper_roughness\": {\"id\": 903535645, \"identifier\": \"copper_roughness\", \"label\": \"Copper Roughness\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.17299999296665192, \"value\": 0.17299999296665192, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"copper_roughness_variation\": {\"id\": 903535643, \"identifier\": \"copper_roughness_variation\", \"label\": \"Copper Roughness Variation\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.0, \"value\": 0.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"dirt\": {\"id\": 903535641, \"identifier\": \"dirt\", \"label\": \"Dirt\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.0, \"value\": 0.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"oxidation_global\": {\"id\": 903535639, \"identifier\": \"oxidation_global\", \"label\": \"Oxidation Global\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.20999999344348907, \"value\": 0.20999999344348907, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"oxidation_localized\": {\"id\": 903535637, \"identifier\": \"oxidation_localized\", \"label\": \"Oxidation Localized\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.0, \"value\": 0.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"scratches\": {\"id\": 903535635, \"identifier\": \"scratches\", \"label\": \"Scratches\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.4399999976158142, \"value\": 0.4399999976158142, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"scratches_intensity\": {\"id\": 903535633, \"identifier\": \"scratches_intensity\", \"label\": \"Scratches Intensity\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"scratches\\\"] > 0.1\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"relief_variation\": {\"id\": 903535727, \"identifier\": \"relief_variation\", \"label\": \"Relief Variation\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.0, \"value\": 0.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"brushed_intensity\": {\"id\": 903429928, \"identifier\": \"brushed_intensity\", \"label\": \"Brushed Intensity\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Cross Brushed Filter\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1.0, \"value\": 1.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"brushed_size\": {\"id\": 903429926, \"identifier\": \"brushed_size\", \"label\": \"Brushed Size\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Cross Brushed Filter\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.12999999523162842, \"value\": 0.12999999523162842, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"brushed_orientation\": {\"id\": 903429924, \"identifier\": \"brushed_orientation\", \"label\": \"Brushed Orientation\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Angle\", \"guiGroup\": \"Cross Brushed Filter\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.15000000596046448, \"value\": 0.15000000596046448, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"brushed_roughness_variation\": {\"id\": 903429922, \"identifier\": \"brushed_roughness_variation\", \"label\": \"Brushed Roughness Variation\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Cross Brushed Filter\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.14000000059604645, \"value\": 0.14000000059604645, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"normal_blend_format\": {\"id\": 903429920, \"identifier\": \"normal_blend_format\", \"label\": \"Normal Blend Format\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Cross Brushed Filter\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"DirectX\", \"labelTrue\": \"OpenGL\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"height_blend_intensity\": {\"id\": 903429950, \"identifier\": \"height_blend_intensity\", \"label\": \"Height Blend Intensity\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Cross Brushed Filter\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.4099999964237213, \"value\": 0.4099999964237213, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"use_mask_input\": {\"id\": 903429948, \"identifier\": \"use_mask_input\", \"label\": \"Use Mask Input\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Cross Brushed Filter\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"channel_diffuse\": {\"id\": 793740400, \"identifier\": \"channel_diffuse\", \"label\": \"Diffuse\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Channels\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"channel_basecolor\": {\"id\": 568507482, \"identifier\": \"channel_basecolor\", \"label\": \"Base Color\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Channels\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1, \"value\": 1, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"channel_normal\": {\"id\": 568507481, \"identifier\": \"channel_normal\", \"label\": \"Normal\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Channels\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1, \"value\": 1, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"channel_specular\": {\"id\": 793740367, \"identifier\": \"channel_specular\", \"label\": \"Specular\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Channels\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"channel_glossiness\": {\"id\": 793740366, \"identifier\": \"channel_glossiness\", \"label\": \"Glossiness\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Channels\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"channel_roughness\": {\"id\": 568507477, \"identifier\": \"channel_roughness\", \"label\": \"Roughness\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Channels\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1, \"value\": 1, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"channel_metallic\": {\"id\": 568507476, \"identifier\": \"channel_metallic\", \"label\": \"Metallic\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Channels\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1, \"value\": 1, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"channel_height\": {\"id\": 568507474, \"identifier\": \"channel_height\", \"label\": \"Height\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Channels\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1, \"value\": 1, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"channel_ambientocclusion\": {\"id\": 704770871, \"identifier\": \"channel_ambientocclusion\", \"label\": \"Ambient Occlusion\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"Channels\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1, \"value\": 1, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"luminosity\": {\"id\": 1490560341, \"identifier\": \"luminosity\", \"label\": \"Luminosity\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"channel_basecolor\\\"]||input[\\\"channel_diffuse\\\"]\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"contrast\": {\"id\": 660466807, \"identifier\": \"contrast\", \"label\": \"Contrast\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"channel_basecolor\\\"]||input[\\\"channel_diffuse\\\"]\", \"channelUse\": [], \"defaultValue\": 0.0, \"value\": 0.0, \"maxValue\": 1.0, \"minValue\": -1.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"hue_shift\": {\"id\": 1490560295, \"identifier\": \"hue_shift\", \"label\": \"Hue Shift\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"channel_basecolor\\\"]||input[\\\"channel_diffuse\\\"]\", \"channelUse\": [], \"defaultValue\": 0.0, \"value\": 0.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"saturation\": {\"id\": 1490560320, \"identifier\": \"saturation\", \"label\": \"Saturation\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"channel_basecolor\\\"]||input[\\\"channel_diffuse\\\"]\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"normal_intensity\": {\"id\": 1490672180, \"identifier\": \"normal_intensity\", \"label\": \"Normal Intensity\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"channel_normal\\\"]\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"normal_format\": {\"id\": 568504185, \"identifier\": \"normal_format\", \"label\": \"Normal Format\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Combobox\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"$normal_map_format\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"channel_normal\\\"]\", \"channelUse\": [], \"defaultValue\": 1, \"value\": 1, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": [{\"index\": 0, \"value\": 0, \"label\": \"DirectX\", \"first\": 0, \"second\": \"DirectX\"}, {\"index\": 1, \"value\": 1, \"label\": \"OpenGL\", \"first\": 1, \"second\": \"OpenGL\"}]}, \"height_range\": {\"id\": 553244181, \"identifier\": \"height_range\", \"label\": \"Height Range\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"channel_height\\\"]\", \"channelUse\": [], \"defaultValue\": 1.0, \"value\": 1.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"height_position\": {\"id\": 553244260, \"identifier\": \"height_position\", \"label\": \"Height Position\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"channel_height\\\"]\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"ambientocclusion_intensity\": {\"id\": 715836062, \"identifier\": \"ambientocclusion_intensity\", \"label\": \"Ambient Occlusion Intensity\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"input[\\\"channel_ambientocclusion\\\"]\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"mask_input\": {\"id\": 903426191, \"identifier\": \"mask_input\", \"label\": \"Mask Input\", \"graphID\": 2147483649, \"visibleIf\": true, \"type\": \"image\", \"guiWidget\": \"Image\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": true, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": \"\", \"value\": \"\", \"maxValue\": null, \"minValue\": null, \"labelFalse\": null, \"labelTrue\": null, \"sliderClamp\": null, \"sliderStep\": null, \"enumValues\": []}}, \"outputs\": {\"diffuse\": {\"id\": 794077196, \"identifier\": \"diffuse\", \"label\": \"Diffuse\", \"group\": \"Material\", \"graphID\": 2147483649, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"diffuse\", \"channelUseSpecified\": true, \"channelUse\": [\"diffuse\"], \"guiVisibleIf\": \"input[\\\"channel_diffuse\\\"]\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"baseColor\": {\"id\": 568503442, \"identifier\": \"basecolor\", \"label\": \"Base Color\", \"group\": \"Material\", \"graphID\": 2147483649, \"format\": 0, \"enabled\": true, \"defaultChannelUse\": \"baseColor\", \"channelUseSpecified\": true, \"channelUse\": [\"baseColor\"], \"guiVisibleIf\": \"input[\\\"channel_basecolor\\\"]\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"normal\": {\"id\": 568503440, \"identifier\": \"normal\", \"label\": \"Normal\", \"group\": \"Material\", \"graphID\": 2147483649, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"normal\", \"channelUseSpecified\": true, \"channelUse\": [\"normal\"], \"guiVisibleIf\": \"input[\\\"channel_normal\\\"]\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"disable=true\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": 0}, \"specular\": {\"id\": 794077192, \"identifier\": \"specular\", \"label\": \"Specular\", \"group\": \"Material\", \"graphID\": 2147483649, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"specular\", \"channelUseSpecified\": true, \"channelUse\": [\"specular\"], \"guiVisibleIf\": \"input[\\\"channel_specular\\\"]\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"glossiness\": {\"id\": 794077189, \"identifier\": \"glossiness\", \"label\": \"Glossiness\", \"group\": \"Material\", \"graphID\": 2147483649, \"format\": 28, \"enabled\": true, \"defaultChannelUse\": \"glossiness\", \"channelUseSpecified\": true, \"channelUse\": [\"glossiness\"], \"guiVisibleIf\": \"input[\\\"channel_glossiness\\\"]\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"roughness\": {\"id\": 568503530, \"identifier\": \"roughness\", \"label\": \"Roughness\", \"group\": \"Material\", \"graphID\": 2147483649, \"format\": 12, \"enabled\": true, \"defaultChannelUse\": \"roughness\", \"channelUseSpecified\": true, \"channelUse\": [\"roughness\"], \"guiVisibleIf\": \"input[\\\"channel_roughness\\\"]\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"metallic\": {\"id\": 568503528, \"identifier\": \"metallic\", \"label\": \"Metallic\", \"group\": \"Material\", \"graphID\": 2147483649, \"format\": 12, \"enabled\": true, \"defaultChannelUse\": \"metallic\", \"channelUseSpecified\": true, \"channelUse\": [\"metallic\"], \"guiVisibleIf\": \"input[\\\"channel_metallic\\\"]\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"height\": {\"id\": 568503524, \"identifier\": \"height\", \"label\": \"Height\", \"group\": \"Material\", \"graphID\": 2147483649, \"format\": 28, \"enabled\": true, \"defaultChannelUse\": \"height\", \"channelUseSpecified\": true, \"channelUse\": [\"height\"], \"guiVisibleIf\": \"input[\\\"channel_height\\\"]\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": 0}, \"ambientOcclusion\": {\"id\": 704770248, \"identifier\": \"ambientocclusion\", \"label\": \"Ambient Occlusion\", \"group\": \"Material\", \"graphID\": 2147483649, \"format\": 28, \"enabled\": true, \"defaultChannelUse\": \"ambientOcclusion\", \"channelUseSpecified\": true, \"channelUse\": [\"ambientOcclusion\"], \"guiVisibleIf\": \"input[\\\"channel_ambientocclusion\\\"]\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}}, \"presets\": [{\"label\": \"Default\", \"value\": \"<sbspreset pkgurl=\\\"pkg://cross_brushed_copper\\\" label=\\\"\\\">\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"1568972014\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n<presetinput identifier=\\\"normal_format\\\" uid=\\\"568504185\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n</sbspreset>\", \"embedded\": true, \"icon\": \"LOCKED\"}, {\"label\": \"Custom\", \"value\": \"<sbspreset pkgurl=\\\"pkg://cross_brushed_copper\\\" label=\\\"\\\">\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"1568972014\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n<presetinput identifier=\\\"normal_format\\\" uid=\\\"568504185\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n</sbspreset>\", \"embedded\": false, \"icon\": \"UNLOCKED\"}, {\"label\": \"Shiny Copper Cross Brushed\", \"value\": \"<sbspreset pkgurl=\\\"pkg://cross_brushed_copper\\\" label=\\\"Shiny Copper Cross Brushed\\\">\\n  <presetinput identifier=\\\"copper_color_variation\\\" uid=\\\"903535617\\\" type=\\\"0\\\" value=\\\"0.01\\\" />\\n  <presetinput identifier=\\\"copper_color_irregularities\\\" uid=\\\"903535647\\\" type=\\\"0\\\" value=\\\"0.7\\\" />\\n  <presetinput identifier=\\\"copper_roughness\\\" uid=\\\"903535645\\\" type=\\\"0\\\" value=\\\"0.173\\\" />\\n  <presetinput identifier=\\\"copper_roughness_variation\\\" uid=\\\"903535643\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"dirt\\\" uid=\\\"903535641\\\" type=\\\"0\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"oxidation_global\\\" uid=\\\"903535639\\\" type=\\\"0\\\" value=\\\"0.21\\\" />\\n  <presetinput identifier=\\\"oxidation_localized\\\" uid=\\\"903535637\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"scratches\\\" uid=\\\"903535635\\\" type=\\\"0\\\" value=\\\"0.44\\\" />\\n  <presetinput identifier=\\\"scratches_intensity\\\" uid=\\\"903535633\\\" type=\\\"0\\\" value=\\\"0.96\\\" />\\n  <presetinput identifier=\\\"relief_variation\\\" uid=\\\"903535727\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"brushed_intensity\\\" uid=\\\"903429928\\\" type=\\\"0\\\" value=\\\"0.99\\\" />\\n  <presetinput identifier=\\\"brushed_size\\\" uid=\\\"903429926\\\" type=\\\"0\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"brushed_orientation\\\" uid=\\\"903429924\\\" type=\\\"0\\\" value=\\\"0.0416667\\\" />\\n  <presetinput identifier=\\\"brushed_roughness_variation\\\" uid=\\\"903429922\\\" type=\\\"0\\\" value=\\\"0.05\\\" />\\n  <presetinput identifier=\\\"normal_blend_format\\\" uid=\\\"903429920\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"height_blend_intensity\\\" uid=\\\"903429950\\\" type=\\\"0\\\" value=\\\"0.41\\\" />\\n  <presetinput identifier=\\\"use_mask_input\\\" uid=\\\"903429948\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_diffuse\\\" uid=\\\"793740400\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_basecolor\\\" uid=\\\"568507482\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_normal\\\" uid=\\\"568507481\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_specular\\\" uid=\\\"793740367\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_glossiness\\\" uid=\\\"793740366\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_roughness\\\" uid=\\\"568507477\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_metallic\\\" uid=\\\"568507476\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_height\\\" uid=\\\"568507474\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_ambientocclusion\\\" uid=\\\"704770871\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"luminosity\\\" uid=\\\"1490560341\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"contrast\\\" uid=\\\"660466807\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"hue_shift\\\" uid=\\\"1490560295\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"saturation\\\" uid=\\\"1490560320\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"normal_intensity\\\" uid=\\\"1490672180\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"normal_format\\\" uid=\\\"568504185\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"height_range\\\" uid=\\\"553244181\\\" type=\\\"0\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"height_position\\\" uid=\\\"553244260\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"ambientocclusion_intensity\\\" uid=\\\"715836062\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"1568972014\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n<presetinput identifier=\\\"normal_format\\\" uid=\\\"568504185\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n</sbspreset>\", \"embedded\": true, \"icon\": \"LOCKED\"}, {\"label\": \"Oxidized Copper Cross Brushed\", \"value\": \"<sbspreset pkgurl=\\\"pkg://cross_brushed_copper\\\" label=\\\"Oxidized Copper Cross Brushed\\\">\\n  <presetinput identifier=\\\"copper_color_variation\\\" uid=\\\"903535617\\\" type=\\\"0\\\" value=\\\"0.52\\\" />\\n  <presetinput identifier=\\\"copper_color_irregularities\\\" uid=\\\"903535647\\\" type=\\\"0\\\" value=\\\"0.7\\\" />\\n  <presetinput identifier=\\\"copper_roughness\\\" uid=\\\"903535645\\\" type=\\\"0\\\" value=\\\"0.08\\\" />\\n  <presetinput identifier=\\\"copper_roughness_variation\\\" uid=\\\"903535643\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"dirt\\\" uid=\\\"903535641\\\" type=\\\"0\\\" value=\\\"0.43\\\" />\\n  <presetinput identifier=\\\"oxidation_global\\\" uid=\\\"903535639\\\" type=\\\"0\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"oxidation_localized\\\" uid=\\\"903535637\\\" type=\\\"0\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"scratches\\\" uid=\\\"903535635\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"scratches_intensity\\\" uid=\\\"903535633\\\" type=\\\"0\\\" value=\\\"0.96\\\" />\\n  <presetinput identifier=\\\"relief_variation\\\" uid=\\\"903535727\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"brushed_intensity\\\" uid=\\\"903429928\\\" type=\\\"0\\\" value=\\\"0.99\\\" />\\n  <presetinput identifier=\\\"brushed_size\\\" uid=\\\"903429926\\\" type=\\\"0\\\" value=\\\"0.29\\\" />\\n  <presetinput identifier=\\\"brushed_orientation\\\" uid=\\\"903429924\\\" type=\\\"0\\\" value=\\\"0.0416667\\\" />\\n  <presetinput identifier=\\\"brushed_roughness_variation\\\" uid=\\\"903429922\\\" type=\\\"0\\\" value=\\\"0.05\\\" />\\n  <presetinput identifier=\\\"normal_blend_format\\\" uid=\\\"903429920\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"height_blend_intensity\\\" uid=\\\"903429950\\\" type=\\\"0\\\" value=\\\"0.41\\\" />\\n  <presetinput identifier=\\\"use_mask_input\\\" uid=\\\"903429948\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_diffuse\\\" uid=\\\"793740400\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_basecolor\\\" uid=\\\"568507482\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_normal\\\" uid=\\\"568507481\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_specular\\\" uid=\\\"793740367\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_glossiness\\\" uid=\\\"793740366\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_roughness\\\" uid=\\\"568507477\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_metallic\\\" uid=\\\"568507476\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_height\\\" uid=\\\"568507474\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_ambientocclusion\\\" uid=\\\"704770871\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"luminosity\\\" uid=\\\"1490560341\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"contrast\\\" uid=\\\"660466807\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"hue_shift\\\" uid=\\\"1490560295\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"saturation\\\" uid=\\\"1490560320\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"normal_intensity\\\" uid=\\\"1490672180\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"normal_format\\\" uid=\\\"568504185\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"height_range\\\" uid=\\\"553244181\\\" type=\\\"0\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"height_position\\\" uid=\\\"553244260\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"ambientocclusion_intensity\\\" uid=\\\"715836062\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"1568972014\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n<presetinput identifier=\\\"normal_format\\\" uid=\\\"568504185\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n</sbspreset>\", \"embedded\": true, \"icon\": \"LOCKED\"}, {\"label\": \"Rust Picked Copper Cross Brushed\", \"value\": \"<sbspreset pkgurl=\\\"pkg://cross_brushed_copper\\\" label=\\\"Rust Picked Copper Cross Brushed\\\">\\n  <presetinput identifier=\\\"copper_color_variation\\\" uid=\\\"903535617\\\" type=\\\"0\\\" value=\\\"0.83\\\" />\\n  <presetinput identifier=\\\"copper_color_irregularities\\\" uid=\\\"903535647\\\" type=\\\"0\\\" value=\\\"0.15\\\" />\\n  <presetinput identifier=\\\"copper_roughness\\\" uid=\\\"903535645\\\" type=\\\"0\\\" value=\\\"0.34\\\" />\\n  <presetinput identifier=\\\"copper_roughness_variation\\\" uid=\\\"903535643\\\" type=\\\"0\\\" value=\\\"0.14\\\" />\\n  <presetinput identifier=\\\"dirt\\\" uid=\\\"903535641\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"oxidation_global\\\" uid=\\\"903535639\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"oxidation_localized\\\" uid=\\\"903535637\\\" type=\\\"0\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"scratches\\\" uid=\\\"903535635\\\" type=\\\"0\\\" value=\\\"0.53\\\" />\\n  <presetinput identifier=\\\"scratches_intensity\\\" uid=\\\"903535633\\\" type=\\\"0\\\" value=\\\"0.96\\\" />\\n  <presetinput identifier=\\\"relief_variation\\\" uid=\\\"903535727\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"brushed_intensity\\\" uid=\\\"903429928\\\" type=\\\"0\\\" value=\\\"0.46\\\" />\\n  <presetinput identifier=\\\"brushed_size\\\" uid=\\\"903429926\\\" type=\\\"0\\\" value=\\\"0.88\\\" />\\n  <presetinput identifier=\\\"brushed_orientation\\\" uid=\\\"903429924\\\" type=\\\"0\\\" value=\\\"0.663889\\\" />\\n  <presetinput identifier=\\\"brushed_roughness_variation\\\" uid=\\\"903429922\\\" type=\\\"0\\\" value=\\\"0.05\\\" />\\n  <presetinput identifier=\\\"normal_blend_format\\\" uid=\\\"903429920\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"height_blend_intensity\\\" uid=\\\"903429950\\\" type=\\\"0\\\" value=\\\"0.41\\\" />\\n  <presetinput identifier=\\\"use_mask_input\\\" uid=\\\"903429948\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_diffuse\\\" uid=\\\"793740400\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_basecolor\\\" uid=\\\"568507482\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_normal\\\" uid=\\\"568507481\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_specular\\\" uid=\\\"793740367\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_glossiness\\\" uid=\\\"793740366\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"channel_roughness\\\" uid=\\\"568507477\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_metallic\\\" uid=\\\"568507476\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_height\\\" uid=\\\"568507474\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"channel_ambientocclusion\\\" uid=\\\"704770871\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"luminosity\\\" uid=\\\"1490560341\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"contrast\\\" uid=\\\"660466807\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"hue_shift\\\" uid=\\\"1490560295\\\" type=\\\"0\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"saturation\\\" uid=\\\"1490560320\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"normal_intensity\\\" uid=\\\"1490672180\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"normal_format\\\" uid=\\\"568504185\\\" type=\\\"4\\\" value=\\\"0\\\" />\\n  <presetinput identifier=\\\"height_range\\\" uid=\\\"553244181\\\" type=\\\"0\\\" value=\\\"1\\\" />\\n  <presetinput identifier=\\\"height_position\\\" uid=\\\"553244260\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n  <presetinput identifier=\\\"ambientocclusion_intensity\\\" uid=\\\"715836062\\\" type=\\\"0\\\" value=\\\"0.5\\\" />\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"1568972014\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n<presetinput identifier=\\\"normal_format\\\" uid=\\\"568504185\\\" type=\\\"4\\\" value=\\\"1\\\" />\\n</sbspreset>\", \"embedded\": true, \"icon\": \"LOCKED\"}], \"parms_class_name\": \"SUBSTANCE_SGP_68BAF0A2-5967-49ED-948D-1C015C540F3C\", \"outputs_class_name\": \"SUBSTANCE_SGO_68BAF0A2-5967-49ED-948D-1C015C540F3C\"}]}",
+						"graphs_list":0
+					},
+					{
+						"id":"BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378",
+						"name":"steel_painted",
+						"filename":"steel_painted.sbsar",
+						"filepath":"C:\\Users\\mjare\\OneDrive\\Desktop\\Blender\\Substance3D\\steel_painted.sbsar",
+						"suffix":"",
+						"icon":"NONE",
+						"graphs":[
+							{
+								"index":"0",
+								"id":"2147483650",
+								"name":"Steel Painted",
+								"material":{
+									"name":"steel_painted",
+									"shader":"01 cycles_std"
+								},
+								"parms_class_name":"SUBSTANCE_SGP_BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378",
+								"outputs_class_name":"SUBSTANCE_SGO_BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378",
+								"shader_preset_callback":1,
+								"shader_preset_list":0,
+								"tiling":{
+									"x":3.0,
+									"y":3.0,
+									"z":3.0,
+									"linked":1
+								},
+								"physical_size":{
+									"x":0.5,
+									"y":0.5,
+									"z":0.0010000000474974513
+								},
+								"outputsize_exists":1,
+								"randomseed_exists":1,
+								"parm_groups":[
+									{
+										"index":0,
+										"name":"General"
+									},
+									{
+										"index":1,
+										"name":"Technical parameters"
+									}
+								],
+								"presets":[
+									{
+										"index":"0",
+										"name":"Default",
+										"value":"<sbspreset pkgurl=\"pkg://steel_painted\" label=\"\">\n <presetinput identifier=\"$outputsize\" uid=\"4071891107\" type=\"8\" value=\"10,10\" />\n</sbspreset>",
+										"icon":"LOCKED",
+										"embedded":1
+									},
+									{
+										"index":"1",
+										"name":"Custom",
+										"value":" <sbspreset pkgurl=\"pkg://steel_painted\" label=\"\" >\n  <presetinput identifier=\"$outputsize\" uid=\"4071891107\" type=\"8\" value=\"10,10\" />\n  <presetinput identifier=\"paint_roughness\" uid=\"2404954888\" type=\"0\" value=\"0.61815\" />\n  <presetinput identifier=\"rust\" uid=\"2284550769\" type=\"0\" value=\"0.208178\" />\n  <presetinput identifier=\"saturation\" uid=\"4159215885\" type=\"0\" value=\"0.1\" />\n </sbspreset>\n",
+										"icon":"UNLOCKED",
+										"embedded":0
+									}
+								],
+								"parms":[
+									{
+										"name":"$outputsize",
+										"label":"$outputsize",
+										"type":"integer2",
+										"widget":"NoWidget",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"$randomseed",
+										"label":"$randomseed",
+										"type":"integer",
+										"widget":"NoWidget",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"paint_color",
+										"label":"Paint Color",
+										"type":"float3",
+										"widget":"Color",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"paint_roughness",
+										"label":"Paint Roughness",
+										"type":"float",
+										"widget":"Color",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"rust",
+										"label":"Rust",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"luminosity",
+										"label":"Luminosity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"contrast",
+										"label":"Contrast",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"hue_shift",
+										"label":"Hue Shift",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"saturation",
+										"label":"Saturation",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"normal_intensity",
+										"label":"Normal Intensity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"ao_spreading",
+										"label":"AO Spreading",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"height_range",
+										"label":"Height Range",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									},
+									{
+										"name":"height_position",
+										"label":"Height Position",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical parameters",
+										"visible":1
+									}
+								],
+								"outputs":[
+									{
+										"id":"2154402928",
+										"name":"diffuse",
+										"identifier":"diffuse",
+										"label":"Diffuse",
+										"usage":"diffuse",
+										"filepath":"//substance tx/steel_painted/steel_painted_diffuse.tga",
+										"filename":"steel_painted_diffuse.tga"
+									},
+									{
+										"id":"2397148704",
+										"name":"baseColor",
+										"identifier":"basecolor",
+										"label":"Base Color",
+										"usage":"baseColor",
+										"filepath":"//substance tx/steel_painted/steel_painted_baseColor.tga",
+										"filename":"steel_painted_baseColor.tga"
+									},
+									{
+										"id":"2154402934",
+										"name":"specular",
+										"identifier":"specular",
+										"label":"Specular",
+										"usage":"specular",
+										"filepath":"//substance tx/steel_painted/steel_painted_specular.tga",
+										"filename":"steel_painted_specular.tga"
+									},
+									{
+										"id":"2154402932",
+										"name":"glossiness",
+										"identifier":"glossiness",
+										"label":"Glossiness",
+										"usage":"glossiness",
+										"filepath":"//substance tx/steel_painted/steel_painted_glossiness.tga",
+										"filename":"steel_painted_glossiness.tga"
+									},
+									{
+										"id":"2397148712",
+										"name":"roughness",
+										"identifier":"roughness",
+										"label":"Roughness",
+										"usage":"roughness",
+										"filepath":"//substance tx/steel_painted/steel_painted_roughness.tga",
+										"filename":"steel_painted_roughness.tga"
+									},
+									{
+										"id":"2397148718",
+										"name":"metallic",
+										"identifier":"metallic",
+										"label":"Metallic",
+										"usage":"metallic",
+										"filepath":"//substance tx/steel_painted/steel_painted_metallic.tga",
+										"filename":"steel_painted_metallic.tga"
+									},
+									{
+										"id":"2397148722",
+										"name":"ambientOcclusion",
+										"identifier":"ambient_occlusion",
+										"label":"Ambient Occlusion",
+										"usage":"ambientOcclusion",
+										"filepath":"//substance tx/steel_painted/steel_painted_ambientOcclusion.tga",
+										"filename":"steel_painted_ambientOcclusion.tga"
+									},
+									{
+										"id":"2397148716",
+										"name":"height",
+										"identifier":"height",
+										"label":"Height",
+										"usage":"height",
+										"filepath":"//substance tx/steel_painted/steel_painted_height.png",
+										"filename":"steel_painted_height.png"
+									},
+									{
+										"id":"2183035319",
+										"name":"normal",
+										"identifier":"normal",
+										"label":"Normal",
+										"usage":"normal",
+										"filepath":"//substance tx/steel_painted/steel_painted_normal.png",
+										"filename":"steel_painted_normal.png"
+									}
+								],
+								"parms_data":"{\"sbsar_id\": \"BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378\", \"parms\": {\"$outputsize\": [10, 10], \"$outputsize_linked\": true, \"$randomseed\": 0, \"paint_color\": [0.06117340177297592, 0.10975799709558487, 0.20000000298023224], \"paint_roughness\": 0.6181496381759644, \"rust\": 0.20817844569683075, \"luminosity\": 0.5, \"contrast\": 0.0, \"hue_shift\": 0.0, \"saturation\": 0.10000000149011612, \"normal_intensity\": 1.0, \"ao_spreading\": 1.0, \"height_range\": 0.05000000074505806, \"height_position\": 0.5}}",
+								"outputs_data":"{\"sbsar_id\": \"BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378\", \"outputs\": {\"diffuse\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"baseColor\": {\"shader_enabled\": true, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"specular\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"glossiness\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"roughness\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"metallic\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"ambientOcclusion\": {\"shader_enabled\": false, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"height\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": \"16\"}, \"normal\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": \"16\"}}}",
+								"preset_callback":1,
+								"presets_list":1
+							}
+						],
+						"loading":"NONE",
+						"load_success":1,
+						"object":"{\"id\": \"BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378\", \"name\": \"steel_painted\", \"filename\": \"steel_painted.sbsar\", \"filepath\": \"C:\\\\Users\\\\mjare\\\\OneDrive\\\\Desktop\\\\Blender\\\\Substance3D\\\\steel_painted.sbsar\", \"graphs\": [{\"id\": 2147483650, \"name\": \"Steel Painted\", \"mat_name\": \"steel_painted\", \"parms_groups\": {\"General\": [\"paint_color\", \"paint_roughness\", \"rust\"], \"Technical parameters\": [\"luminosity\", \"contrast\", \"hue_shift\", \"saturation\", \"normal_intensity\", \"ao_spreading\", \"height_range\", \"height_position\"]}, \"physicalSize\": [0.5, 0.5, 0.0010000000149011613], \"$randomseed_exists\": true, \"$outputsize_exists\": true, \"parms\": {\"$outputsize\": {\"id\": 4071891107, \"identifier\": \"$outputsize\", \"label\": \"$outputsize\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"integer2\", \"guiWidget\": \"NoWidget\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": true, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": [10, 10], \"value\": [10, 10], \"maxValue\": [12, 12], \"minValue\": [5, 5], \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"$randomseed\": {\"id\": 2781230833, \"identifier\": \"$randomseed\", \"label\": \"$randomseed\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"NoWidget\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": true, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 32767, \"minValue\": 0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"paint_color\": {\"id\": 2285907657, \"identifier\": \"paint_color\", \"label\": \"Paint Color\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float3\", \"guiWidget\": \"Color\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": [0.06117340177297592, 0.10975799709558487, 0.20000000298023224], \"value\": [0.06117340177297592, 0.10975799709558487, 0.20000000298023224], \"maxValue\": [0.0, 0.0, 0.0], \"minValue\": [0.0, 0.0, 0.0], \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"paint_roughness\": {\"id\": 2404954888, \"identifier\": \"paint_roughness\", \"label\": \"Paint Roughness\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Color\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.3058820068836212, \"value\": 0.3058820068836212, \"maxValue\": 0.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"rust\": {\"id\": 2284550769, \"identifier\": \"rust\", \"label\": \"Rust\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.0, \"value\": 0.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"luminosity\": {\"id\": 4159215896, \"identifier\": \"luminosity\", \"label\": \"Luminosity\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"contrast\": {\"id\": 2285906837, \"identifier\": \"contrast\", \"label\": \"Contrast\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.0, \"value\": 0.0, \"maxValue\": 1.0, \"minValue\": -1.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"hue_shift\": {\"id\": 4159215978, \"identifier\": \"hue_shift\", \"label\": \"Hue Shift\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.0, \"value\": 0.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"saturation\": {\"id\": 4159215885, \"identifier\": \"saturation\", \"label\": \"Saturation\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"normal_intensity\": {\"id\": 4159268473, \"identifier\": \"normal_intensity\", \"label\": \"Normal Intensity\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1.0, \"value\": 1.0, \"maxValue\": 10.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"ao_spreading\": {\"id\": 2397157065, \"identifier\": \"ao_spreading\", \"label\": \"AO Spreading\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1.0, \"value\": 1.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"height_range\": {\"id\": 2412895299, \"identifier\": \"height_range\", \"label\": \"Height Range\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.05000000074505806, \"value\": 0.05000000074505806, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"height_position\": {\"id\": 2412895296, \"identifier\": \"height_position\", \"label\": \"Height Position\", \"graphID\": 2147483650, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}}, \"outputs\": {\"diffuse\": {\"id\": 2154402928, \"identifier\": \"diffuse\", \"label\": \"Diffuse\", \"group\": \"Material\", \"graphID\": 2147483650, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"diffuse\", \"channelUseSpecified\": true, \"channelUse\": [\"diffuse\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"baseColor\": {\"id\": 2397148704, \"identifier\": \"basecolor\", \"label\": \"Base Color\", \"group\": \"Material\", \"graphID\": 2147483650, \"format\": 0, \"enabled\": true, \"defaultChannelUse\": \"baseColor\", \"channelUseSpecified\": true, \"channelUse\": [\"baseColor\"], \"guiVisibleIf\": \"\", \"mipmaps\": 1, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"specular\": {\"id\": 2154402934, \"identifier\": \"specular\", \"label\": \"Specular\", \"group\": \"Material\", \"graphID\": 2147483650, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"specular\", \"channelUseSpecified\": true, \"channelUse\": [\"specular\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"glossiness\": {\"id\": 2154402932, \"identifier\": \"glossiness\", \"label\": \"Glossiness\", \"group\": \"Material\", \"graphID\": 2147483650, \"format\": 28, \"enabled\": true, \"defaultChannelUse\": \"glossiness\", \"channelUseSpecified\": true, \"channelUse\": [\"glossiness\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"roughness\": {\"id\": 2397148712, \"identifier\": \"roughness\", \"label\": \"Roughness\", \"group\": \"Material\", \"graphID\": 2147483650, \"format\": 12, \"enabled\": true, \"defaultChannelUse\": \"roughness\", \"channelUseSpecified\": true, \"channelUse\": [\"roughness\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"metallic\": {\"id\": 2397148718, \"identifier\": \"metallic\", \"label\": \"Metallic\", \"group\": \"Material\", \"graphID\": 2147483650, \"format\": 12, \"enabled\": true, \"defaultChannelUse\": \"metallic\", \"channelUseSpecified\": true, \"channelUse\": [\"metallic\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"ambientOcclusion\": {\"id\": 2397148722, \"identifier\": \"ambient_occlusion\", \"label\": \"Ambient Occlusion\", \"group\": \"Material\", \"graphID\": 2147483650, \"format\": 12, \"enabled\": true, \"defaultChannelUse\": \"ambientOcclusion\", \"channelUseSpecified\": true, \"channelUse\": [\"ambientOcclusion\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"height\": {\"id\": 2397148716, \"identifier\": \"height\", \"label\": \"Height\", \"group\": \"Material\", \"graphID\": 2147483650, \"format\": 28, \"enabled\": true, \"defaultChannelUse\": \"height\", \"channelUseSpecified\": true, \"channelUse\": [\"height\"], \"guiVisibleIf\": \"\", \"mipmaps\": 1, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": 0}, \"normal\": {\"id\": 2183035319, \"identifier\": \"normal\", \"label\": \"Normal\", \"group\": \"\", \"graphID\": 2147483650, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"normal\", \"channelUseSpecified\": true, \"channelUse\": [\"normal\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"disable=(true)\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": 0}}, \"presets\": [{\"label\": \"Default\", \"value\": \"<sbspreset pkgurl=\\\"pkg://steel_painted\\\" label=\\\"\\\">\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"4071891107\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n</sbspreset>\", \"embedded\": true, \"icon\": \"LOCKED\"}, {\"label\": \"Custom\", \"value\": \"<sbspreset pkgurl=\\\"pkg://steel_painted\\\" label=\\\"\\\">\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"4071891107\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n</sbspreset>\", \"embedded\": false, \"icon\": \"UNLOCKED\"}], \"parms_class_name\": \"SUBSTANCE_SGP_BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378\", \"outputs_class_name\": \"SUBSTANCE_SGO_BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378\"}]}",
+						"graphs_list":0
+					},
+					{
+						"id":"C8012DCE-A19F-423D-99C6-781192E24113",
+						"name":"plastic_diamond",
+						"filename":"plastic_diamond.sbsar",
+						"filepath":"C:\\Users\\mjare\\OneDrive\\Desktop\\Blender\\Substance3D\\plastic_diamond.sbsar",
+						"suffix":"",
+						"icon":"NONE",
+						"graphs":[
+							{
+								"index":"0",
+								"id":"2147483653",
+								"name":"Plastic Diamond",
+								"material":{
+									"name":"plastic_diamond",
+									"shader":"01 cycles_std"
+								},
+								"parms_class_name":"SUBSTANCE_SGP_C8012DCE-A19F-423D-99C6-781192E24113",
+								"outputs_class_name":"SUBSTANCE_SGO_C8012DCE-A19F-423D-99C6-781192E24113",
+								"shader_preset_callback":1,
+								"shader_preset_list":0,
+								"tiling":{
+									"x":3.0,
+									"y":3.0,
+									"z":3.0,
+									"linked":1
+								},
+								"physical_size":{
+									"x":0.05999999865889549,
+									"y":0.05999999865889549,
+									"z":0.009999999776482582
+								},
+								"outputsize_exists":1,
+								"randomseed_exists":1,
+								"parm_groups":[
+									{
+										"index":0,
+										"name":"General"
+									},
+									{
+										"index":1,
+										"name":"Technical Parameters"
+									}
+								],
+								"presets":[
+									{
+										"index":"0",
+										"name":"Default",
+										"value":"<sbspreset pkgurl=\"pkg://plastic_diamond\" label=\"\">\n <presetinput identifier=\"$outputsize\" uid=\"442281687\" type=\"8\" value=\"10,10\" />\n</sbspreset>",
+										"icon":"LOCKED",
+										"embedded":1
+									},
+									{
+										"index":"1",
+										"name":"Custom",
+										"value":"<sbspreset pkgurl=\"pkg://plastic_diamond\" label=\"\">\n <presetinput identifier=\"$outputsize\" uid=\"442281687\" type=\"8\" value=\"10,10\" />\n</sbspreset>",
+										"icon":"UNLOCKED",
+										"embedded":0
+									}
+								],
+								"parms":[
+									{
+										"name":"$outputsize",
+										"label":"$outputsize",
+										"type":"integer2",
+										"widget":"NoWidget",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"$randomseed",
+										"label":"$randomseed",
+										"type":"integer",
+										"widget":"NoWidget",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"basecolor",
+										"label":"Color",
+										"type":"float3",
+										"widget":"Color",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"outputcolor",
+										"label":"Roughness",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"switch",
+										"label":"Use Custom Pattern",
+										"type":"integer",
+										"widget":"Togglebutton",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"surface_grain",
+										"label":"Surface Grain",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"normal_intensity",
+										"label":"Normal Intensity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical Parameters",
+										"visible":1
+									},
+									{
+										"name":"height_range",
+										"label":"Height Range",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical Parameters",
+										"visible":1
+									},
+									{
+										"name":"height_position",
+										"label":"Height Position",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical Parameters",
+										"visible":1
+									},
+									{
+										"name":"input_pattern",
+										"label":"Custom Pattern",
+										"type":"image",
+										"widget":"Image",
+										"group":"General",
+										"visible":1
+									}
+								],
+								"outputs":[
+									{
+										"id":"1793761932",
+										"name":"diffuse",
+										"identifier":"diffuse",
+										"label":"Diffuse",
+										"usage":"diffuse",
+										"filepath":"//substance tx/plastic_diamond/plastic_diamond_diffuse.tga",
+										"filename":"plastic_diamond_diffuse.tga"
+									},
+									{
+										"id":"1759127782",
+										"name":"baseColor",
+										"identifier":"basecolor",
+										"label":"Base Color",
+										"usage":"baseColor",
+										"filepath":"//substance tx/plastic_diamond/plastic_diamond_baseColor.tga",
+										"filename":"plastic_diamond_baseColor.tga"
+									},
+									{
+										"id":"1759127780",
+										"name":"normal",
+										"identifier":"normal",
+										"label":"Normal",
+										"usage":"normal",
+										"filepath":"//substance tx/plastic_diamond/plastic_diamond_normal.png",
+										"filename":"plastic_diamond_normal.png"
+									},
+									{
+										"id":"1793762004",
+										"name":"specular",
+										"identifier":"specular",
+										"label":"Specular",
+										"usage":"specular",
+										"filepath":"//substance tx/plastic_diamond/plastic_diamond_specular.tga",
+										"filename":"plastic_diamond_specular.tga"
+									},
+									{
+										"id":"1793775938",
+										"name":"glossiness",
+										"identifier":"glossiness",
+										"label":"Glossiness",
+										"usage":"glossiness",
+										"filepath":"//substance tx/plastic_diamond/plastic_diamond_glossiness.tga",
+										"filename":"plastic_diamond_glossiness.tga"
+									},
+									{
+										"id":"1759127778",
+										"name":"roughness",
+										"identifier":"roughness",
+										"label":"Roughness",
+										"usage":"roughness",
+										"filepath":"//substance tx/plastic_diamond/plastic_diamond_roughness.tga",
+										"filename":"plastic_diamond_roughness.tga"
+									},
+									{
+										"id":"1759127776",
+										"name":"metallic",
+										"identifier":"metallic",
+										"label":"Metallic",
+										"usage":"metallic",
+										"filepath":"//substance tx/plastic_diamond/plastic_diamond_metallic.tga",
+										"filename":"plastic_diamond_metallic.tga"
+									},
+									{
+										"id":"1840627342",
+										"name":"height",
+										"identifier":"height",
+										"label":"Height",
+										"usage":"height",
+										"filepath":"//substance tx/plastic_diamond/plastic_diamond_height.png",
+										"filename":"plastic_diamond_height.png"
+									}
+								],
+								"parms_data":"{\"sbsar_id\": \"C8012DCE-A19F-423D-99C6-781192E24113\", \"parms\": {\"$outputsize\": [10, 10], \"$outputsize_linked\": true, \"$randomseed\": 0, \"basecolor\": [0.1529410034418106, 0.1529410034418106, 0.1529410034418106], \"outputcolor\": 0.30000001192092896, \"switch\": 0, \"surface_grain\": 1.0, \"normal_intensity\": 0.5, \"height_range\": 0.05000000074505806, \"height_position\": 0.5, \"input_pattern\": \"\"}}",
+								"outputs_data":"{\"sbsar_id\": \"C8012DCE-A19F-423D-99C6-781192E24113\", \"outputs\": {\"diffuse\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"baseColor\": {\"shader_enabled\": true, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"normal\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": \"16\"}, \"specular\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"glossiness\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"roughness\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"metallic\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"height\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": \"16\"}}}"
+							}
+						],
+						"loading":"NONE",
+						"load_success":1,
+						"graphs_list":0,
+						"object":"{\"id\": \"C8012DCE-A19F-423D-99C6-781192E24113\", \"name\": \"plastic_diamond\", \"filename\": \"plastic_diamond.sbsar\", \"filepath\": \"C:\\\\Users\\\\mjare\\\\OneDrive\\\\Desktop\\\\Blender\\\\Substance3D\\\\plastic_diamond.sbsar\", \"graphs\": [{\"id\": 2147483653, \"name\": \"Plastic Diamond\", \"mat_name\": \"plastic_diamond\", \"parms_groups\": {\"General\": [\"basecolor\", \"outputcolor\", \"switch\", \"surface_grain\", \"input_pattern\"], \"Technical Parameters\": [\"normal_intensity\", \"height_range\", \"height_position\"]}, \"physicalSize\": [0.06, 0.06, 0.01], \"$randomseed_exists\": true, \"$outputsize_exists\": true, \"parms\": {\"$outputsize\": {\"id\": 442281687, \"identifier\": \"$outputsize\", \"label\": \"$outputsize\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"integer2\", \"guiWidget\": \"NoWidget\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": true, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": [10, 10], \"value\": [10, 10], \"maxValue\": [12, 12], \"minValue\": [5, 5], \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"$randomseed\": {\"id\": 1294907525, \"identifier\": \"$randomseed\", \"label\": \"$randomseed\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"NoWidget\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": true, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 32767, \"minValue\": 0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"basecolor\": {\"id\": 1841514253, \"identifier\": \"basecolor\", \"label\": \"Color\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"float3\", \"guiWidget\": \"Color\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": [0.1529410034418106, 0.1529410034418106, 0.1529410034418106], \"value\": [0.1529410034418106, 0.1529410034418106, 0.1529410034418106], \"maxValue\": [0.0, 0.0, 0.0], \"minValue\": [0.0, 0.0, 0.0], \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"outputcolor\": {\"id\": 1841518829, \"identifier\": \"outputcolor\", \"label\": \"Roughness\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.30000001192092896, \"value\": 0.30000001192092896, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"switch\": {\"id\": 1841518837, \"identifier\": \"switch\", \"label\": \"Use Custom Pattern\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"Togglebutton\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 0, \"minValue\": 0, \"labelFalse\": \"False\", \"labelTrue\": \"True\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"surface_grain\": {\"id\": 1831174507, \"identifier\": \"surface_grain\", \"label\": \"Surface Grain\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 1.0, \"value\": 1.0, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"normal_intensity\": {\"id\": 1793765140, \"identifier\": \"normal_intensity\", \"label\": \"Normal Intensity\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical Parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"height_range\": {\"id\": 1793776031, \"identifier\": \"height_range\", \"label\": \"Height Range\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical Parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.05000000074505806, \"value\": 0.05000000074505806, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"height_position\": {\"id\": 1793776000, \"identifier\": \"height_position\", \"label\": \"Height Position\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical Parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"input_pattern\": {\"id\": 1843277689, \"identifier\": \"input_pattern\", \"label\": \"Custom Pattern\", \"graphID\": 2147483653, \"visibleIf\": true, \"type\": \"image\", \"guiWidget\": \"Image\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": true, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": \"\", \"value\": \"\", \"maxValue\": null, \"minValue\": null, \"labelFalse\": null, \"labelTrue\": null, \"sliderClamp\": null, \"sliderStep\": null, \"enumValues\": []}}, \"outputs\": {\"diffuse\": {\"id\": 1793761932, \"identifier\": \"diffuse\", \"label\": \"Diffuse\", \"group\": \"Material\", \"graphID\": 2147483653, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"diffuse\", \"channelUseSpecified\": true, \"channelUse\": [\"diffuse\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"baseColor\": {\"id\": 1759127782, \"identifier\": \"basecolor\", \"label\": \"Base Color\", \"group\": \"Material\", \"graphID\": 2147483653, \"format\": 0, \"enabled\": true, \"defaultChannelUse\": \"baseColor\", \"channelUseSpecified\": true, \"channelUse\": [\"baseColor\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"normal\": {\"id\": 1759127780, \"identifier\": \"normal\", \"label\": \"Normal\", \"group\": \"Material\", \"graphID\": 2147483653, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"normal\", \"channelUseSpecified\": true, \"channelUse\": [\"normal\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"ColorSpace=NormalXYZLeft;disable=(true)\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": 0}, \"specular\": {\"id\": 1793762004, \"identifier\": \"specular\", \"label\": \"Specular\", \"group\": \"Material\", \"graphID\": 2147483653, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"specular\", \"channelUseSpecified\": true, \"channelUse\": [\"specular\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"glossiness\": {\"id\": 1793775938, \"identifier\": \"glossiness\", \"label\": \"Glossiness\", \"group\": \"Material\", \"graphID\": 2147483653, \"format\": 28, \"enabled\": true, \"defaultChannelUse\": \"glossiness\", \"channelUseSpecified\": true, \"channelUse\": [\"glossiness\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"roughness\": {\"id\": 1759127778, \"identifier\": \"roughness\", \"label\": \"Roughness\", \"group\": \"Material\", \"graphID\": 2147483653, \"format\": 12, \"enabled\": true, \"defaultChannelUse\": \"roughness\", \"channelUseSpecified\": true, \"channelUse\": [\"roughness\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"metallic\": {\"id\": 1759127776, \"identifier\": \"metallic\", \"label\": \"Metallic\", \"group\": \"Material\", \"graphID\": 2147483653, \"format\": 12, \"enabled\": true, \"defaultChannelUse\": \"metallic\", \"channelUseSpecified\": true, \"channelUse\": [\"metallic\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"height\": {\"id\": 1840627342, \"identifier\": \"height\", \"label\": \"Height\", \"group\": \"\", \"graphID\": 2147483653, \"format\": 28, \"enabled\": true, \"defaultChannelUse\": \"height\", \"channelUseSpecified\": true, \"channelUse\": [\"height\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": 0}}, \"presets\": [{\"label\": \"Default\", \"value\": \"<sbspreset pkgurl=\\\"pkg://plastic_diamond\\\" label=\\\"\\\">\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"442281687\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n</sbspreset>\", \"embedded\": true, \"icon\": \"LOCKED\"}, {\"label\": \"Custom\", \"value\": \"<sbspreset pkgurl=\\\"pkg://plastic_diamond\\\" label=\\\"\\\">\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"442281687\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n</sbspreset>\", \"embedded\": false, \"icon\": \"UNLOCKED\"}], \"parms_class_name\": \"SUBSTANCE_SGP_C8012DCE-A19F-423D-99C6-781192E24113\", \"outputs_class_name\": \"SUBSTANCE_SGO_C8012DCE-A19F-423D-99C6-781192E24113\"}]}"
+					},
+					{
+						"id":"56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D",
+						"name":"plastic_grainy",
+						"filename":"plastic_grainy.sbsar",
+						"filepath":"C:\\Users\\mjare\\OneDrive\\Desktop\\Blender\\Substance3D\\plastic_grainy.sbsar",
+						"suffix":"",
+						"icon":"NONE",
+						"graphs":[
+							{
+								"index":"0",
+								"id":"2147483655",
+								"name":"Plastic Grainy",
+								"material":{
+									"name":"plastic_grainy",
+									"shader":"01 cycles_std"
+								},
+								"parms_class_name":"SUBSTANCE_SGP_56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D",
+								"outputs_class_name":"SUBSTANCE_SGO_56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D",
+								"shader_preset_callback":1,
+								"shader_preset_list":0,
+								"tiling":{
+									"x":3.0,
+									"y":3.0,
+									"z":3.0,
+									"linked":1
+								},
+								"physical_size":{
+									"x":0.10000000149011612,
+									"y":0.10000000149011612,
+									"z":0.004999999888241291
+								},
+								"outputsize_exists":1,
+								"randomseed_exists":1,
+								"parm_groups":[
+									{
+										"index":0,
+										"name":"General"
+									},
+									{
+										"index":1,
+										"name":"Technical Parameters"
+									}
+								],
+								"presets":[
+									{
+										"index":"0",
+										"name":"Default",
+										"value":"<sbspreset pkgurl=\"pkg://plastic_grainy\" label=\"\">\n <presetinput identifier=\"$outputsize\" uid=\"3712656529\" type=\"8\" value=\"10,10\" />\n</sbspreset>",
+										"icon":"LOCKED",
+										"embedded":1
+									},
+									{
+										"index":"1",
+										"name":"Custom",
+										"value":"<sbspreset pkgurl=\"pkg://plastic_grainy\" label=\"\">\n <presetinput identifier=\"$outputsize\" uid=\"3712656529\" type=\"8\" value=\"10,10\" />\n</sbspreset>",
+										"icon":"UNLOCKED",
+										"embedded":0
+									}
+								],
+								"parms":[
+									{
+										"name":"$outputsize",
+										"label":"$outputsize",
+										"type":"integer2",
+										"widget":"NoWidget",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"$randomseed",
+										"label":"$randomseed",
+										"type":"integer",
+										"widget":"NoWidget",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"color",
+										"label":"Color",
+										"type":"float3",
+										"widget":"Color",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"roughness",
+										"label":"Roughness",
+										"type":"float",
+										"widget":"Slider",
+										"group":"General",
+										"visible":1
+									},
+									{
+										"name":"normal_intensity",
+										"label":"Normal Intensity",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical Parameters",
+										"visible":1
+									},
+									{
+										"name":"height_range",
+										"label":"Height Range",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical Parameters",
+										"visible":1
+									},
+									{
+										"name":"height_position",
+										"label":"Height Position",
+										"type":"float",
+										"widget":"Slider",
+										"group":"Technical Parameters",
+										"visible":1
+									}
+								],
+								"outputs":[
+									{
+										"id":"2919016650",
+										"name":"diffuse",
+										"identifier":"diffuse",
+										"label":"Diffuse",
+										"usage":"diffuse",
+										"filepath":"//substance tx/plastic_grainy/plastic_grainy_diffuse.tga",
+										"filename":"plastic_grainy_diffuse.tga"
+									},
+									{
+										"id":"2949391008",
+										"name":"baseColor",
+										"identifier":"basecolor",
+										"label":"Base Color",
+										"usage":"baseColor",
+										"filepath":"//substance tx/plastic_grainy/plastic_grainy_baseColor.tga",
+										"filename":"plastic_grainy_baseColor.tga"
+									},
+									{
+										"id":"2949391010",
+										"name":"normal",
+										"identifier":"normal",
+										"label":"Normal",
+										"usage":"normal",
+										"filepath":"//substance tx/plastic_grainy/plastic_grainy_normal.png",
+										"filename":"plastic_grainy_normal.png"
+									},
+									{
+										"id":"2919016594",
+										"name":"specular",
+										"identifier":"specular",
+										"label":"Specular",
+										"usage":"specular",
+										"filepath":"//substance tx/plastic_grainy/plastic_grainy_specular.tga",
+										"filename":"plastic_grainy_specular.tga"
+									},
+									{
+										"id":"2919027460",
+										"name":"glossiness",
+										"identifier":"glossiness",
+										"label":"Glossiness",
+										"usage":"glossiness",
+										"filepath":"//substance tx/plastic_grainy/plastic_grainy_glossiness.tga",
+										"filename":"plastic_grainy_glossiness.tga"
+									},
+									{
+										"id":"2949391012",
+										"name":"roughness",
+										"identifier":"roughness",
+										"label":"Roughness",
+										"usage":"roughness",
+										"filepath":"//substance tx/plastic_grainy/plastic_grainy_roughness.tga",
+										"filename":"plastic_grainy_roughness.tga"
+									},
+									{
+										"id":"2949391014",
+										"name":"metallic",
+										"identifier":"metallic",
+										"label":"Metallic",
+										"usage":"metallic",
+										"filepath":"//substance tx/plastic_grainy/plastic_grainy_metallic.tga",
+										"filename":"plastic_grainy_metallic.tga"
+									},
+									{
+										"id":"2862855368",
+										"name":"height",
+										"identifier":"height",
+										"label":"Height",
+										"usage":"height",
+										"filepath":"//substance tx/plastic_grainy/plastic_grainy_height.png",
+										"filename":"plastic_grainy_height.png"
+									}
+								],
+								"parms_data":"{\"sbsar_id\": \"56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D\", \"parms\": {\"$outputsize\": [10, 10], \"$outputsize_linked\": true, \"$randomseed\": 0, \"color\": [0.1411760002374649, 0.1411760002374649, 0.1411760002374649], \"roughness\": 0.4000000059604645, \"normal_intensity\": 0.5, \"height_range\": 0.02500000037252903, \"height_position\": 0.5}}",
+								"outputs_data":"{\"sbsar_id\": \"56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D\", \"outputs\": {\"diffuse\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"baseColor\": {\"shader_enabled\": true, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"normal\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": \"16\"}, \"specular\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"glossiness\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"roughness\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"metallic\": {\"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": \"8\"}, \"height\": {\"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": \"16\"}}}",
+								"outputs_filter":2
+							}
+						],
+						"loading":"NONE",
+						"load_success":1,
+						"graphs_list":0,
+						"object":"{\"id\": \"56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D\", \"name\": \"plastic_grainy\", \"filename\": \"plastic_grainy.sbsar\", \"filepath\": \"C:\\\\Users\\\\mjare\\\\OneDrive\\\\Desktop\\\\Blender\\\\Substance3D\\\\plastic_grainy.sbsar\", \"graphs\": [{\"id\": 2147483655, \"name\": \"Plastic Grainy\", \"mat_name\": \"plastic_grainy\", \"parms_groups\": {\"General\": [\"color\", \"roughness\"], \"Technical Parameters\": [\"normal_intensity\", \"height_range\", \"height_position\"]}, \"physicalSize\": [0.1, 0.1, 0.005], \"$randomseed_exists\": true, \"$outputsize_exists\": true, \"parms\": {\"$outputsize\": {\"id\": 3712656529, \"identifier\": \"$outputsize\", \"label\": \"$outputsize\", \"graphID\": 2147483655, \"visibleIf\": true, \"type\": \"integer2\", \"guiWidget\": \"NoWidget\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": true, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": [10, 10], \"value\": [10, 10], \"maxValue\": [12, 12], \"minValue\": [5, 5], \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"$randomseed\": {\"id\": 2318971587, \"identifier\": \"$randomseed\", \"label\": \"$randomseed\", \"graphID\": 2147483655, \"visibleIf\": true, \"type\": \"integer\", \"guiWidget\": \"NoWidget\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": true, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0, \"value\": 0, \"maxValue\": 32767, \"minValue\": 0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"color\": {\"id\": 2855376440, \"identifier\": \"color\", \"label\": \"Color\", \"graphID\": 2147483655, \"visibleIf\": true, \"type\": \"float3\", \"guiWidget\": \"Color\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": [0.1411760002374649, 0.1411760002374649, 0.1411760002374649], \"value\": [0.1411760002374649, 0.1411760002374649, 0.1411760002374649], \"maxValue\": [0.0, 0.0, 0.0], \"minValue\": [0.0, 0.0, 0.0], \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.0, \"enumValues\": []}, \"roughness\": {\"id\": 2855376428, \"identifier\": \"roughness\", \"label\": \"Roughness\", \"graphID\": 2147483655, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"General\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.4000000059604645, \"value\": 0.4000000059604645, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": false, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"normal_intensity\": {\"id\": 2919015762, \"identifier\": \"normal_intensity\", \"label\": \"Normal Intensity\", \"graphID\": 2147483655, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical Parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"height_range\": {\"id\": 2919027673, \"identifier\": \"height_range\", \"label\": \"Height Range\", \"graphID\": 2147483655, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical Parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.02500000037252903, \"value\": 0.02500000037252903, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}, \"height_position\": {\"id\": 2919027654, \"identifier\": \"height_position\", \"label\": \"Height Position\", \"graphID\": 2147483655, \"visibleIf\": true, \"type\": \"float\", \"guiWidget\": \"Slider\", \"guiGroup\": \"Technical Parameters\", \"guiDescription\": \"\", \"userTag\": \"\", \"useCache\": false, \"showAsPin\": false, \"isHeavyDuty\": false, \"guiVisibleIf\": \"\", \"channelUse\": [], \"defaultValue\": 0.5, \"value\": 0.5, \"maxValue\": 1.0, \"minValue\": 0.0, \"labelFalse\": \"\", \"labelTrue\": \"\", \"sliderClamp\": true, \"sliderStep\": 0.009999999776482582, \"enumValues\": []}}, \"outputs\": {\"diffuse\": {\"id\": 2919016650, \"identifier\": \"diffuse\", \"label\": \"Diffuse\", \"group\": \"Material\", \"graphID\": 2147483655, \"format\": 0, \"enabled\": true, \"defaultChannelUse\": \"diffuse\", \"channelUseSpecified\": true, \"channelUse\": [\"diffuse\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"baseColor\": {\"id\": 2949391008, \"identifier\": \"basecolor\", \"label\": \"Base Color\", \"group\": \"Material\", \"graphID\": 2147483655, \"format\": 0, \"enabled\": true, \"defaultChannelUse\": \"baseColor\", \"channelUseSpecified\": true, \"channelUse\": [\"baseColor\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"sRGB\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"normal\": {\"id\": 2949391010, \"identifier\": \"normal\", \"label\": \"Normal\", \"group\": \"Material\", \"graphID\": 2147483655, \"format\": 16, \"enabled\": true, \"defaultChannelUse\": \"normal\", \"channelUseSpecified\": true, \"channelUse\": [\"normal\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"ColorSpace=NormalXYZLeft;\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": 0}, \"specular\": {\"id\": 2919016594, \"identifier\": \"specular\", \"label\": \"Specular\", \"group\": \"Material\", \"graphID\": 2147483655, \"format\": 0, \"enabled\": true, \"defaultChannelUse\": \"specular\", \"channelUseSpecified\": true, \"channelUse\": [\"specular\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"glossiness\": {\"id\": 2919027460, \"identifier\": \"glossiness\", \"label\": \"Glossiness\", \"group\": \"Material\", \"graphID\": 2147483655, \"format\": 0, \"enabled\": true, \"defaultChannelUse\": \"glossiness\", \"channelUseSpecified\": true, \"channelUse\": [\"glossiness\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"roughness\": {\"id\": 2949391012, \"identifier\": \"roughness\", \"label\": \"Roughness\", \"group\": \"Material\", \"graphID\": 2147483655, \"format\": 12, \"enabled\": true, \"defaultChannelUse\": \"roughness\", \"channelUseSpecified\": true, \"channelUse\": [\"roughness\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"metallic\": {\"id\": 2949391014, \"identifier\": \"metallic\", \"label\": \"Metallic\", \"group\": \"Material\", \"graphID\": 2147483655, \"format\": 12, \"enabled\": true, \"defaultChannelUse\": \"metallic\", \"channelUseSpecified\": true, \"channelUse\": [\"metallic\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"\", \"shader_enabled\": true, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"tga\", \"shader_bitdepth\": 0}, \"height\": {\"id\": 2862855368, \"identifier\": \"height\", \"label\": \"Height\", \"group\": \"\", \"graphID\": 2147483655, \"format\": 28, \"enabled\": true, \"defaultChannelUse\": \"height\", \"channelUseSpecified\": true, \"channelUse\": [\"height\"], \"guiVisibleIf\": \"\", \"mipmaps\": 0, \"outputGuiType\": \"image\", \"resultFormat\": \"tga\", \"type\": \"image\", \"userTag\": \"disable=(true)\", \"shader_enabled\": false, \"shader_colorspace\": \"Non-Color\", \"shader_format\": \"png\", \"shader_bitdepth\": 0}}, \"presets\": [{\"label\": \"Default\", \"value\": \"<sbspreset pkgurl=\\\"pkg://plastic_grainy\\\" label=\\\"\\\">\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"3712656529\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n</sbspreset>\", \"embedded\": true, \"icon\": \"LOCKED\"}, {\"label\": \"Custom\", \"value\": \"<sbspreset pkgurl=\\\"pkg://plastic_grainy\\\" label=\\\"\\\">\\n <presetinput identifier=\\\"$outputsize\\\" uid=\\\"3712656529\\\" type=\\\"8\\\" value=\\\"10,10\\\" />\\n</sbspreset>\", \"embedded\": false, \"icon\": \"UNLOCKED\"}], \"parms_class_name\": \"SUBSTANCE_SGP_56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D\", \"outputs_class_name\": \"SUBSTANCE_SGO_56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D\"}]}"
+					}
+				],
+				"sbsar_index":0,
+				"SUBSTANCE_SGP_68BAF0A2-5967-49ED-948D-1C015C540F3C":{
+					"mask_input":{},
+					"copper_color_variation":0.5,
+					"copper_color_irregularities":0.4000000059604645,
+					"copper_roughness":0.25,
+					"dirt":0.6000000238418579,
+					"oxidation_global":0.10000000149011612,
+					"oxidation_localized":0.10000000149011612,
+					"scratches":0.20000000298023224,
+					"scratches_intensity":0.5,
+					"relief_variation":0.0,
+					"normal_blend_format":0,
+					"brushed_size":0.10000000149011612,
+					"brushed_intensity":0.5,
+					"brushed_orientation":1.3089969158172607,
+					"brushed_roughness_variation":0.10000000149011612,
+					"hue_shift":0.5,
+					"saturation":0.4000000059604645,
+					"normal_intensity":0.5
+				},
+				"SUBSTANCE_SGO_68BAF0A2-5967-49ED-948D-1C015C540F3C":{},
+				"SUBSTANCE_SGP_BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378":{
+					"hue_shift":0.0,
+					"saturation":0.10000000149011612,
+					"paint_roughness":0.6181496381759644,
+					"rust":0.20817844569683075
+				},
+				"SUBSTANCE_SGO_BA1F4B3C-EED9-4AA9-963D-DBBFB36A6378":{},
+				"SUBSTANCE_SGP_74B3DC78-01BF-4EF1-BBA9-7DBF849EF1E1":{},
+				"SUBSTANCE_SGO_74B3DC78-01BF-4EF1-BBA9-7DBF849EF1E1":{},
+				"SUBSTANCE_SGP_250CDE36-DAAF-411F-B551-25905DBCFDFF":{},
+				"SUBSTANCE_SGO_250CDE36-DAAF-411F-B551-25905DBCFDFF":{},
+				"SUBSTANCE_SGP_C8012DCE-A19F-423D-99C6-781192E24113":{
+					"input_pattern":{}
+				},
+				"SUBSTANCE_SGO_C8012DCE-A19F-423D-99C6-781192E24113":{},
+				"SUBSTANCE_SGO_06242FC4-D28D-4187-A894-FCC817F70EDB":{
+					"diffuse_enabled":0,
+					"diffuse_colorspace":3,
+					"diffuse_format":0,
+					"diffuse_bitdepth":0,
+					"baseColor_enabled":1,
+					"baseColor_colorspace":0,
+					"baseColor_format":0,
+					"baseColor_bitdepth":0,
+					"specular_enabled":0,
+					"specular_colorspace":3,
+					"specular_format":0,
+					"specular_bitdepth":0,
+					"glossiness_enabled":0,
+					"glossiness_colorspace":3,
+					"glossiness_format":0,
+					"glossiness_bitdepth":0,
+					"roughness_enabled":1,
+					"roughness_colorspace":3,
+					"roughness_format":0,
+					"roughness_bitdepth":0,
+					"metallic_enabled":1,
+					"metallic_colorspace":3,
+					"metallic_format":0,
+					"metallic_bitdepth":0,
+					"ambientOcclusion_enabled":0,
+					"ambientOcclusion_colorspace":0,
+					"ambientOcclusion_format":0,
+					"ambientOcclusion_bitdepth":0,
+					"height_enabled":0,
+					"height_colorspace":3,
+					"height_format":3,
+					"height_bitdepth":0,
+					"normal_enabled":1,
+					"normal_colorspace":3,
+					"normal_format":3,
+					"normal_bitdepth":0
+				},
+				"SUBSTANCE_SGP_06242FC4-D28D-4187-A894-FCC817F70EDB":{
+					"$outputsize_width":5,
+					"$outputsize_height":5,
+					"$outputsize_linked":1,
+					"$randomseed":0,
+					"paint_color":[
+						0.0912674143910408,
+						0.14560450613498688,
+						0.24619503319263458
+					],
+					"paint_roughness":0.6765799522399902,
+					"rust":0.022304832935333252,
+					"luminosity":0.6000000238418579,
+					"contrast":0.0,
+					"hue_shift":0.0,
+					"saturation":0.3499999940395355,
+					"normal_intensity":1.0,
+					"ao_spreading":1.0,
+					"height_range":0.05000000074505806,
+					"height_position":0.5
+				},
+				"SUBSTANCE_SGP_56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D":{},
+				"SUBSTANCE_SGO_56AAF7AF-204E-4E8D-88E6-B6F9CD0DBD0D":{},
+				"SimpleBake_Props":{
+					"presets_show":1,
+					"presets_list":[
+						{
+							"name":"AO"
+						},
+						{
+							"name":"PBR"
+						}
+					],
+					"presets_list_index":1,
+					"preset_name":"PBR",
+					"bake_objects_show":1,
+					"first_texture_show":0,
+					"preset_load_clear_obj":0,
+					"objects_list":[
+						{
+							"obj_point":{
+								"name":"plastic_diamond",
+								"type":"Object"
+							},
+							"name":"plastic_diamond"
+						},
+						{
+							"obj_point":{
+								"name":"steel_painted",
+								"type":"Object"
+							},
+							"name":"steel_painted"
+						},
+						{
+							"obj_point":{
+								"name":"plastic_grainy",
+								"type":"Object"
+							},
+							"name":"plastic_grainy"
+						}
+					],
+					"pbr_settings_show":1,
+					"selected_metal":1,
+					"selected_normal":1,
+					"selected_rough":1,
+					"specials_show":0,
+					"textures_show":1,
+					"imgwidth":1024,
+					"outputwidth":1024,
+					"imgheight":1024,
+					"outputheight":1024,
+					"export_show":1,
+					"save_bakes_external":1,
+					"everything_16bit":0,
+					"export_folder_per_object":0,
+					"uv_mode":0,
+					"uv_show":0,
+					"other_show":0,
+					"copy_and_apply":1,
+					"hide_source_objects":1,
+					"hide_cage_object":1,
+					"apply_bakes_to_original":0,
+					"total_bake_images_number":12,
+					"fg_status_message":"[17:35:04] - Time taken - 57 seconds (0 minutes, 57 seconds)",
+					"targetobj":{},
+					"targetobj_cycles":{},
+					"current_bake_image_number":12,
+					"percent_complete":100,
+					"clear_image":1,
+					"use_alpha":0,
+					"uv_advanced_packing_show":1
+				}
+			},
+			"name":"Scene",
+			"nodes":[
+				0
+			]
+		}
+	],
+	"nodes":[
+		{
+			"extras":{
+				"BoolToolRoot":true,
+				"SB_uv_used_for_bake":"UVMap",
+				"SB_copy_and_apply_from":"Crate",
+				"SB_bake_operation_id":"200e23e9-8003-4bca-85c5-6d342da2538e",
+				"collision":"box",
+				"size_x":"0.844",
+				"size_z":"0.8776",
+				"size_y":"0.8271"
+			},
+			"mesh":0,
+			"name":"Crate_Baked.001"
+		}
+	],
+	"materials":[
+		{
+			"doubleSided":true,
+			"extras":{
+				"lp":{
+					"uid":"0ec4eb3f34"
+				},
+				"DM":{},
+				"SB_baked_orig_objects":[
+					"Crate"
+				],
+				"SB_bake_operation_id":"200e23e9-8003-4bca-85c5-6d342da2538e"
+			},
+			"name":"Crate_Baked",
+			"normalTexture":{
+				"index":0
+			},
+			"pbrMetallicRoughness":{
+				"baseColorTexture":{
+					"index":1
+				},
+				"metallicRoughnessTexture":{
+					"index":2
+				}
+			}
+		}
+	],
+	"meshes":[
+		{
+			"name":"Crate_Baked",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0,
+						"NORMAL":1,
+						"TEXCOORD_0":2
+					},
+					"indices":3,
+					"material":0
+				}
+			]
+		}
+	],
+	"textures":[
+		{
+			"sampler":0,
+			"source":0
+		},
+		{
+			"sampler":0,
+			"source":1
+		},
+		{
+			"sampler":0,
+			"source":2
+		}
+	],
+	"images":[
+		{
+			"mimeType":"image/png",
+			"name":"Crate_Bake1_PBR_Normal",
+			"uri":"Crate_Bake1_PBR_Normal.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"Crate_Bake1_PBR_Diffuse",
+			"uri":"Crate_Bake1_PBR_Diffuse.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"Crate_Bake1_PBR_Metalness-Crate_Bake1_PBR_Roughness",
+			"uri":"Crate_Bake1_PBR_Metalness-Crate_Bake1_PBR_Roughness.png"
+		}
+	],
+	"accessors":[
+		{
+			"bufferView":0,
+			"componentType":5126,
+			"count":1275,
+			"max":[
+				0.40969783067703247,
+				0.4015277624130249,
+				0.4260019063949585
+			],
+			"min":[
+				-0.40969783067703247,
+				-0.4015277624130249,
+				-0.4260019063949585
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":1,
+			"componentType":5126,
+			"count":1275,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":2,
+			"componentType":5126,
+			"count":1275,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":3,
+			"componentType":5123,
+			"count":3504,
+			"type":"SCALAR"
+		}
+	],
+	"bufferViews":[
+		{
+			"buffer":0,
+			"byteLength":15300,
+			"byteOffset":0,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":15300,
+			"byteOffset":15300,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":10200,
+			"byteOffset":30600,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":7008,
+			"byteOffset":40800,
+			"target":34963
+		}
+	],
+	"samplers":[
+		{
+			"magFilter":9729,
+			"minFilter":9987
+		}
+	],
+	"buffers":[
+		{
+			"byteLength":47808,
+			"uri":"Crate.bin"
+		}
+	]
+}

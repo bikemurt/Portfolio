@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Burt 3D Art Showcase - Hard Surface Modeling</title>
+    <script src="src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <script type="importmap">
+    {
+        "imports":
+        {
+            "three": "./src/threejs/build/three.module.min.js",
+            "three/addons/": "./src/threejs/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Michael Burt</h1>
+        <h2>3D Art Showcase</h2>
+    </header>
+
+    <div class="menu-container">
+        <ul class="menu">
+            <li class="menu-item current-page"><a href="./">3D Art</a></li>
+            <li class="menu-item"><a href="./simulation/">Industrial Simulation</a></li>
+            <li class="menu-item"><a href="./teaching/">Teaching</a></li>
+            <li class="menu-item"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menu-container" style="background: #777; ">
+        <ul class="menu">
+            <li class="menu-item current-page"><a href="./">Hard Surface Modeling</a></li>
+            <li class="menu-item"><a href="3dart/animation.html">Animation and Rigging</a></li>
+            <li class="menu-item"><a href="3dart/gamedev.html">Game Dev</a></li>
+        </ul>
+    </div>
+	
+    <section id="section1">
+        <h1>Sci-Fi Industrial Crate</h1>
+        <p>You can rotate/zoom the model using a mouse or on a smartphone.</p>
+        <p>Game ready asset. 1k textures/1,168 tris</p>
+        <div id="model-container1" class="model-container"></div>
+    </section>
+
+    <section id="section2">
+        <h1>Generator with Edge-Wear</h1>
+        <p>Medium poly asset for high visibility in game. 2k textures/21,695 tris</p>
+        <div id="model-container2" class="model-container"></div>
+    </section>
+
+    <section id="section3">
+        <h1>Futuristic Scope</h1>
+        <p>Medium poly asset for high visibility in game. 2k textures/26,909 tris</p>
+        <div id="model-container3" class="model-container"></div>
+    </section>
+
+    <p style="text-align: center; "><i>&copy; 2023 Michael Burt. Made with three.js, jQuery, NodeJS, and Vite</i></p>
+    
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                parallax();
+            });
+
+            function parallax() {
+                var scrollPosition = $(window).scrollTop();
+
+                $('#section1').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
+                $('#section2').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
+                $('#section3').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
+            }
+        });
+    </script>
+	
+	<script type="module" src="src/3dmodels.js"></script>
+</body>
+</html>

@@ -6,15 +6,26 @@
     <title>Michael Burt - Teaching</title>
     <script src="../src/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="../src/style.css">
+    <script type="importmap">
+    {
+        "imports":
+        {
+            "three": "./src/threejs/build/three.module.min.js",
+            "three/addons/": "./src/threejs/examples/jsm/"
+        }
+    }
+    </script>
 </head>
 <body>
     <header>
         <h1>Michael Burt</h1>
         <h2>Teaching</h2>
     </header>
+
     <div class="menu-container">
         <ul class="menu">
             <li class="menu-item"><a href="../">3D Art</a></li>
+            <li class="menu-item"><a href="../simulation/">Industrial Simulation</a></li>
             <li class="menu-item current-page"><a href="./">Teaching</a></li>
             <li class="menu-item"><a href="#">Contact</a></li>
         </ul>
@@ -35,22 +46,11 @@
         <p>description goes here.</p>
     </section>
 
-    <p style="text-align: center; "><i>&copy; 2023 Michael Burt. Made with three.js, jQuery, NodeJS, and Vite</i></p>
+    <p style="text-align: center; " id="footer"></p>
     
     <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                parallax();
-            });
-
-            function parallax() {
-                var scrollPosition = $(window).scrollTop();
-
-                $('#section1').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-                $('#section2').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-                $('#section3').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-            }
-        });
+        var sections = ['section1', 'section2', 'section3'];
     </script>
+    <script src="../src/scroller.js"></script>
 </body>
 </html>

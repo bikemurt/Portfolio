@@ -6,6 +6,15 @@
     <title>Michael Burt - Simulation</title>
     <script src="../src/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="../src/style.css">
+    <script type="importmap">
+    {
+        "imports":
+        {
+            "three": "./src/threejs/build/three.module.min.js",
+            "three/addons/": "./src/threejs/examples/jsm/"
+        }
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -64,22 +73,11 @@
         </p>
     </section>
 
-    <p style="text-align: center; "><i>&copy; 2023 Michael Burt. Made with three.js, jQuery, NodeJS, and Vite</i></p>
+    <p style="text-align: center; " id="footer"></p>
     
     <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                parallax();
-            });
-
-            function parallax() {
-                var scrollPosition = $(window).scrollTop();
-
-                $('#section1').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-                $('#section2').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-                $('#section3').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-            }
-        });
+        var sections = ['section1', 'section2'];
     </script>
+    <script src="../src/scroller.js"></script>
 </body>
 </html>

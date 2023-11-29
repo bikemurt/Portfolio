@@ -1,0 +1,1 @@
+<i>© 2023 Michael Burt. Made with three.js, jQuery, NodeJS. The code for this website is open source and is hosted with GitHub Pages.</i>

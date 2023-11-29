@@ -12,9 +12,11 @@
         <h1>Michael Burt</h1>
         <h2>3D Art Showcase</h2>
     </header>
+
     <div class="menu-container">
         <ul class="menu">
             <li class="menu-item current-page"><a href="../">3D Art</a></li>
+            <li class="menu-item"><a href="../simulation/">Industrial Simulation</a></li>
             <li class="menu-item"><a href="../teaching/">Teaching</a></li>
             <li class="menu-item"><a href="#">Contact</a></li>
         </ul>
@@ -42,22 +44,11 @@
         <p>description goes here.</p>
     </section>
 
-    <p style="text-align: center; "><i>&copy; 2023 Michael Burt. Made with three.js, jQuery, NodeJS, and Vite</i></p>
+    <p style="text-align: center; " id="footer"></p>
     
     <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                parallax();
-            });
-
-            function parallax() {
-                var scrollPosition = $(window).scrollTop();
-
-                $('#section1').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-                $('#section2').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-                $('#section3').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-            }
-        });
+        var sections = ['section1', 'section2', 'section3'];
     </script>
+    <script src="../src/scroller.js"></script>
 </body>
 </html>

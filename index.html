@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Burt 3D Art Showcase - Hard Surface Modeling</title>
+    <title>Michael Burt - 3D Art Showcase - Hard Surface Modeling</title>
     <script src="src/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <script type="importmap">
@@ -37,7 +37,7 @@
             <li class="menu-item"><a href="3dart/gamedev.html">Game Dev</a></li>
         </ul>
     </div>
-	
+
     <section id="section1">
         <h1>Sci-Fi Industrial Crate</h1>
         <p>You can rotate/zoom the model using a mouse or on a smartphone.</p>
@@ -57,24 +57,13 @@
         <div id="model-container3" class="model-container"></div>
     </section>
 
-    <p style="text-align: center; "><i>&copy; 2023 Michael Burt. Made with three.js, jQuery, NodeJS, and Vite</i></p>
+    <p style="text-align: center; " id="footer"></p>
     
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                parallax();
-            });
-
-            function parallax() {
-                var scrollPosition = $(window).scrollTop();
-
-                $('#section1').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-                $('#section2').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-                $('#section3').css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
-            }
-        });
-    </script>
-	
 	<script type="module" src="src/3dmodels.js"></script>
+
+    <script>
+        var sections = ['section1', 'section2', 'section3'];
+    </script>
+    <script src="src/scroller.js"></script>
 </body>
 </html>

@@ -99,6 +99,6 @@ function viewport3d(container, model)
     
 }
 
-viewport3d('model-container1', 'models/crate.gltf')
-viewport3d('model-container2', 'models/generator.gltf')
-viewport3d('model-container3', 'models/scope.gltf')
+viewport3d('model-container1', 'models/Crate.gltf')
+viewport3d('model-container2', 'models/Generator.gltf')
+viewport3d('model-container3', 'models/Scope.gltf')

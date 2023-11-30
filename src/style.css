@@ -43,6 +43,22 @@ header h2 {
     margin: 0 15px; /* Adjust the spacing between menu items */
 }
 
+@media (max-width: 800px) {
+    .menu-container {
+        display: block;
+        height: auto;
+    }
+    .menu {
+        display: block;
+    }
+    .menu-item {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+
 .current-page a {
     font-weight: bold; /* Bold text for the current page */
     color: #ffcc00; /* Custom color for the current page */

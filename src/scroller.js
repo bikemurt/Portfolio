@@ -1,24 +1,29 @@
+
+function parallax() {
+    var scrollPosition = $(window).scrollTop();
+    
+    for (var i = 0; i < sections.length; i++)
+    {
+        var s = sections[i];
+        var offset = $("#" + s).position().top - $("#section1").position().top;
+
+        $("#" + s).css('background-position', 'center ' + (-scrollPosition * 0.5 - offset) + 'px');
+        
+    }
+
+}
+
 $(document).ready(function () {
     $(window).scroll(function () {
         parallax();
     });
 
-    function parallax() {
-        var scrollPosition = $(window).scrollTop();
-        
-        for (var i = 0; i < sections.length; i++)
-        {
-            var s = sections[i];
-            $("#" + s).css('background-position', 'center ' + (-scrollPosition * 0.5 - $("#" + s).position().top) + 'px');
-            
-        }
-
-    }
     parallax();
 });
 
 function loadMenu(menuPath, menuID)
 {
+    if (menuPath == '') return;
     $.ajax({
         url: menuPath, // Replace with the path to your text file
         dataType: 'text',
@@ -40,11 +45,22 @@ function loadMenu(menuPath, menuID)
     });
 }
 
-loadMenu('/components/menu.txt', 'menu')
+var menu = '/components/menu.txt';
+var submenu = '/components/menu3dart.txt';
+
+/*
+if ($(window).width() < 800)
+{
+    menu = '/components/menu-mobile.txt';
+    submenu = '/components/menu3dart-mobile.txt';
+}
+*/
+
+loadMenu(menu, 'menu')
 
 if ($("#menu3dart").length)
 {   
-    loadMenu('/components/menu3dart.txt', 'menu3dart')
+    loadMenu(submenu, 'menu3dart')
 }
 
 $.ajax({

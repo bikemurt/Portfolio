@@ -91,7 +91,7 @@ section h1
     height: 50vh;
     margin: 0px auto;
 }
-/* Media query for smaller screens (mobile) */
+
 @media (max-width: 800px) {
     .model-container {
         width: 90%;
@@ -111,7 +111,7 @@ p {
 }
 
 .bullet-list {
-    width: 700px;
+    max-width: 700px;
     text-align: left;
     margin: 0px auto;
     list-style-type: square;
@@ -121,8 +121,8 @@ p {
 
 .bullet-list li {
     margin: 0px;
-    margin-bottom: 10px;
     padding: 0px;
+    padding-bottom: 10px;
 }
 
 
@@ -133,4 +133,8 @@ a {
 
 a:active {
     color: white;
+}
+
+img {
+    max-width: 100%;
 }

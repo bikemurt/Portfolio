@@ -1,1 +1,3 @@
-<i>© 2023 Michael Burt. Made with three.js, jQuery, NodeJS. The code for this website is open source and is hosted with GitHub Pages.</i>
+<i>© 2023 Michael Burt.
+<br />Made with three.js and jQuery.
+The code for this website is <a href="https://github.com/bikemurt/" target="_blank">available on my GitHub</a>.

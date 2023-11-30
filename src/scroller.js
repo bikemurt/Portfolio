@@ -6,12 +6,15 @@ $(document).ready(function () {
     function parallax() {
         var scrollPosition = $(window).scrollTop();
         
-        for (section of sections)
+        for (var i = 0; i < sections.length; i++)
         {
-            $("#" + section).css('background-position', 'center ' + (-scrollPosition * 0.5) + 'px');
+            var s = sections[i];
+            $("#" + s).css('background-position', 'center ' + (-scrollPosition * 0.5 - $("#" + s).position().top) + 'px');
+            
         }
 
     }
+    parallax();
 });
 
 function loadMenu(menuPath, menuID)

@@ -58,44 +58,54 @@ header h2 {
     text-decoration: underline; /* Underline on hover */
 }
 
+.top {
+    background: #777;
+}
+
 section {
-    height: 75vh;
     text-align: center;
 }
 section h1
 {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 #section1 {
-    position: relative;
     background: linear-gradient(rgba(72, 91, 122, 0.8), rgba(72, 91, 122, 1)), url('../images/fox.png') center/cover repeat-y;
 }
 
 #section2 {
-    position: relative;
     background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 1)), url('../images/fox.png') center/cover repeat-y;
 }
 
 #section3 {
-    position: relative;
     background: linear-gradient(rgba(0, 31, 63, 0.8), rgba(0, 31, 63, 1)), url('../images/fox.png') center/cover repeat-y;
 }
 
+.model-top {
+    display: block;
+}
+
 .model-container {
-    width: 700px;
-    height: 500px;
+    width: 50%;
+    height: 50vh;
     margin: 0px auto;
+}
+/* Media query for smaller screens (mobile) */
+@media (max-width: 800px) {
+    .model-container {
+        width: 90%;
+    }
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
     color: #ecf0f1; /* Light Grey */
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 20px 0;
     color: #bdc3c7; /* Silver */
 }

@@ -40,6 +40,7 @@ function viewport3d(container, model)
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableZoom = true;
     controls.enablePan = false;
+    controls.rotateSpeed = 0.5;
     
     // Load the glTF model
     const loader = new GLTFLoader();

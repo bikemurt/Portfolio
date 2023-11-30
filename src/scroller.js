@@ -45,6 +45,18 @@ if ($("#menu3dart").length)
 }
 
 $.ajax({
+    url: '/components/header.txt', // Replace with the path to your text file
+    dataType: 'text',
+    success: function (data) {
+        // Update the content of the div with the text from the file
+        $('#header').html(data);
+    },
+    error: function (error) {
+        console.error('Error loading text file:', error);
+    }
+});
+
+$.ajax({
     url: '/components/footer.txt', // Replace with the path to your text file
     dataType: 'text',
     success: function (data) {

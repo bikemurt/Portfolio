@@ -23,9 +23,12 @@
         <h2>Contact Me</h2>
     </header>
 
-    <div id="menu"></div>
+    <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
+    <div id="menu-wrapper">
+        <div id="menu"></div>
+    </div>
 	
-    <section id="section1">
+    <section id="section1" class="section s1">
         <h1>Socials</h1>
         <p style="padding-left: 5px; padding-right: 5px; ">
             <a href="https://www.linkedin.com/in/mjburt/" target="_blank" class="socials" style="background: #444; ">
@@ -39,7 +42,7 @@
         </p>
     </section>
 
-    <section id="section2">
+    <section id="section2" class="section s2">
         <h1>Resume</h1>
         <p>I generally have two variants of my resume, one that is more automation/electrical engineering focused and one that is more computer engineering/programmed focused:</p>
         <ul class="bullet-list">

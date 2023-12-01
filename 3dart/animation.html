@@ -6,6 +6,7 @@
     <title>Michael Burt - 3D Art Showcase - Animation and Rigging</title>
     <script src="../src/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="../src/style.css">
+    <script src="../src/fontawesome.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="top">
@@ -14,11 +15,14 @@
             <h2>3D Art Showcase</h2>
         </header>
     
-        <div id="menu"></div>
-        <div id="menu3dart"></div>
+        <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
+        <div id="menu-wrapper">
+            <div id="menu"></div>
+            <div id="menu3dart"></div>
+        </div>
     </div>
 	
-    <section id="section1">
+    <section id="section1" class="section s1">
         <h1>Work in Progress</h1>
         <p></p>
     </section>

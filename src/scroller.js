@@ -48,14 +48,6 @@ function loadMenu(menuPath, menuID)
 var menu = '/components/menu.txt';
 var submenu = '/components/menu3dart.txt';
 
-/*
-if ($(window).width() < 800)
-{
-    menu = '/components/menu-mobile.txt';
-    submenu = '/components/menu3dart-mobile.txt';
-}
-*/
-
 loadMenu(menu, 'menu')
 
 if ($("#menu3dart").length)

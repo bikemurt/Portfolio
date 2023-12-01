@@ -1,4 +1,4 @@
-<div class="menu-container" style="background: #777; ">
+<div class="menu-container" id="menu3d">
     <ul class="menu">
         <li class="menu-item"><a href="/">Hard Surface Modeling</a></li>
         <li class="menu-item"><a href="/3dart/uvunwrapping.html">UV Unwrapping</a></li>

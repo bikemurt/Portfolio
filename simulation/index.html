@@ -6,6 +6,7 @@
     <title>Michael Burt - Simulation</title>
     <script src="../src/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="../src/style.css">
+    <script src="../src/fontawesome.js" crossorigin="anonymous"></script>
     <script type="importmap">
     {
         "imports":
@@ -23,10 +24,13 @@
             <h2>Simulation and the Emerging "Digital Twin" Concept</h2>
         </header>
     
-        <div id="menu"></div>
+        <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
+        <div id="menu-wrapper">
+            <div id="menu"></div>
+        </div>
     </div>
 	
-    <section id="section1" class="section">
+    <section id="section1" class="section s1">
         <h1>Machine Simulation Through Ignition</h1>
         <p>
             During my career I have made many detailed machine simulations using the Ignition platform:
@@ -46,7 +50,7 @@
         </ul>
     </section>
 
-    <section id="section2" class="section">
+    <section id="section2" class="section s2">
         <h1>Pylogix and Real-time 3D Simulation</h1>
         <p><a href="https://github.com/dmroeder/pylogix" target="_blank">pylogix</a> is an open source software allowing reading/writing tag values using the CIP protocol in Python.</p>
         <p>There is an <a href="https://github.com/dmroeder/pylogix/blob/experimental/examples/100_simple_adapter.py" target="_blank">experimental branch</a>

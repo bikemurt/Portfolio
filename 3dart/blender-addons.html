@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Burt - 3D Art Showcase - Animation and Rigging</title>
+    <script src="../src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="../src/style.css">
+    <script src="../src/fontawesome.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top">
+        <header onclick="window.location.href ='/'; ">
+            <h1 id="header"></h1>
+            <h2>3D Art Portfolio</h2>
+        </header>
+    
+        <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
+        <div id="menu-wrapper">
+            <div id="menu"></div>
+            <div id="menu3dart"></div>
+        </div>
+    </div>
+	
+    <section id="section1" class="section s1">
+        <h1>Godot Pipeline Addon (Free)</h1>
+        <p>This add-on streamlines many aspects of bringing in assets from Blender to Godot.</p>
+        <a href="https://github.com/bikemurt/Godot_TestProject?tab=readme-ov-file#godot-4-pipeline-blender-addon" target="_blank"><img src="../images/addons/godot-pipeline.png" /></a>
+        <p><a href="https://github.com/bikemurt/Godot_TestProject?tab=readme-ov-file#godot-4-pipeline-blender-addon" target="_blank">Download on Github</a></p>
+    </section>
+
+    <section id="section2" class="section s2">
+        <h1>Edge Groups Addon</h1>
+        <p>This addon enables Blender artists to use an edge group workflow, very similar to the built in vertex group feature.</p>
+        <div>
+            <div style="display: inline-block; margin-right: 20px; ">
+                <a href="https://github.com/bikemurt/Godot_TestProject?tab=readme-ov-file#godot-4-pipeline-blender-addon" target="_blank"><img src="../images/addons/edge-groups.png" /></a>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VkeK12tiux8?si=MM1epb9s82CirCqn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <p style="text-align: center; " id="footer"></p>
+    
+    <script>
+        var sections = ['section1', 'section2'];
+    </script>
+    <script src="../src/scroller.js"></script>
+</body>
+</html>

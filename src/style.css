@@ -16,13 +16,13 @@ header {
 header h1 {
     font-size: 2em;
     margin: 5px 0;
-    color: #3498db; /* Dark Blue */
+    color: #3498db;
 }
 
 header h2 {
     font-size: 1.5em;
     margin: 5px 0;
-    color: #bdc3c7; /* Silver */
+    color: #bdc3c7;
 }
 
 .menu-container {
@@ -71,13 +71,12 @@ section {
 section p {
     max-width: 1200px;
     margin: 0px auto;
-    padding: 0px;
-    padding-top: 10px;
+    padding: 20px;
 }
 
 section h1
 {
-    padding-top: 10px;
+    padding: 20px;
     padding-bottom: 0px;
     margin: 0px;
 }
@@ -113,7 +112,7 @@ h1 {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 20px 0;
     color: #bdc3c7; /* Silver */
 }
@@ -179,6 +178,61 @@ img {
     background: #777;
 }
 
+
+/* HOME PAGE NAV BLOCKS */
+
+.block {
+    width: 300px;
+    height: 160px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background-color: #3498db;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.block:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.navhomepage {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.block:hover .content {
+    transform: translateY(0);
+}
+
+.content h2 {
+    margin: 0 0 10px;
+    padding: 0px;
+}
+
+.content p {
+    margin: 0;
+    padding: 0px;
+}
+
+
+/* MOBILE */
+
 @media (max-width: 800px) {
     #mobile-menu {
         display: block;
@@ -205,5 +259,11 @@ img {
     }
     .model-container {
         width: 90%;
+    }
+    .navhomepage {
+        display: none;
+    }
+    .top h2 {
+        display: none;
     }
 }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Burt - 3D Art Portfolio - Hard Surface Modeling</title>
+    <script src="../src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="../src/style.css">
+    <script src="../src/fontawesome.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+        "imports":
+        {
+            "three": "../src/threejs/build/three.module.min.js",
+            "three/addons/": "../src/threejs/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="top">
+        <header onclick="window.location.href ='/'; ">
+            <h1 id="header"></h1>
+            <h2>3D Art Portfolio</h2>
+        </header>
+    
+        <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
+        <div id="menu-wrapper">
+            <div id="menu"></div>
+            <div id="menu3dart"></div>
+        </div>
+    </div>
+
+    <section id="section1" class="s1">
+        <div class="model-top">
+            <p><b>Interactive 3D Models:</b> Desktop: Rotate with left click, zoom with scroll wheel, pan with right click. Pinch on mobile.</p>
+            <h1>Cyberpunk Case</h1>
+            <p>Portfolio piece only (<a href="https://www.artstation.com/artwork/Dv1nzG" target="_blank">reference</a>). 2k textures/9,828 tris</p>
+            <p><span class="fakelink" onclick="$('#case-workflow').toggle(); ">Show Workflow</span></p>
+            <ul class="bullet-list" id="case-workflow" style="display: none">
+                <li>Poly modeled several distinct components using a boolean/bevel workflow.</li>
+                <li>Auto smooth + harden normals to create clean shading with minimal geometry.</li>
+                <li>Mark seams, UV unwrap and rescale islands as appropriate.</li>
+                <li>Merge separate objects pieces with custom-split normals enabled on all objects to maintain shading.</li>
+                <li>Place UV islands onto single object UV map.</li>
+                <li>Develop layered shader in Blender to allow for multiple layers of paint (alpha blending) and stencils</li>
+                <li>Bake to single texture set using SimpleBake</li>
+            </ul>
+        </div>
+        <div id="model-container1" class="model-container"></div>
+    </section>
+    
+    <section id="section2" class="s2">
+        <div class="model-top">
+            <h1>Generator with Edge-Wear</h1>
+            <p>Medium poly asset for high visibility in game. 2k textures/21,695 tris</p>
+        </div>
+        <div id="model-container2" class="model-container"></div>
+    </section>
+
+    <section id="section3" class="s3">
+        <div class="model-top">
+            <h1>Futuristic Scope</h1>
+            <p>Practice piece (not optimized for games). 2k textures/26,909 tris</p>
+        </div>
+        <div id="model-container3" class="model-container"></div>
+    </section>
+
+    <section id="section4" class="s1">
+        <div class="model-top">
+            <h1>Sci-Fi Industrial Crate</h1>
+            <p>Game ready asset. 1k textures/1,168 tris</p>
+        </div>
+        <div id="model-container4" class="model-container"></div>
+    </section>
+
+    <p style="text-align: center; " id="footer"></p>
+    
+    <div id="visits"></div>
+
+	<script type="module" src="../src/3dmodels.js"></script>
+
+    <script>
+        var sections = ['section1', 'section2', 'section3', 'section4'];
+    </script>
+    <script src="../src/scroller.js"></script>
+</body>
+</html>

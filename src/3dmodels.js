@@ -36,7 +36,7 @@ function viewport3d(container, model, camx = 1.3, camy = 0.1, camz = -0.7)
     const pmremGenerator = new THREE.PMREMGenerator( renderer );
 
     const hdriLoader = new RGBELoader();
-    hdriLoader.load( 'hdri/field.hdr', function ( texture ) {
+    hdriLoader.load( '../hdri/field.hdr', function ( texture ) {
       const envMap = pmremGenerator.fromEquirectangular( texture ).texture;
       texture.dispose(); 
       scene.environment = envMap

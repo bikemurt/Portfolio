@@ -36,7 +36,7 @@ function viewport3d(container, model, camx = 1.3, camy = 0.1, camz = -0.7)
     const pmremGenerator = new THREE.PMREMGenerator( renderer );
 
     const hdriLoader = new RGBELoader();
-    hdriLoader.load( '../hdri/field.hdr', function ( texture ) {
+    hdriLoader.load( '/hdri/field.hdr', function ( texture ) {
       const envMap = pmremGenerator.fromEquirectangular( texture ).texture;
       texture.dispose(); 
       scene.environment = envMap
@@ -119,7 +119,4 @@ function viewport3d(container, model, camx = 1.3, camy = 0.1, camz = -0.7)
     
 }
 
-viewport3d('model-container1', '../models/Case.gltf', 2, 0.6, 1.9);
-viewport3d('model-container2', '../models/Generator.gltf', -1.6, 0.2, -1.5);
-viewport3d('model-container3', '../models/Scope.gltf', 1.9, 0.1, 0.9);
-viewport3d('model-container4', '../models/Crate.gltf', 1.4, 0.9, -0.5);
+viewport3d('model-container1', '/models/Scope.gltf', 1.9, 0.1, 0.9);

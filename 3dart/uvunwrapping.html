@@ -24,12 +24,12 @@
     </div>
 	
     <section id="section1" class="section s1">
-        <h1>Sci-Fi Generator</h1>
+        <h1>Brief writeup of how I created the "Sci-Fi Generator" asset</h1>
         <p>This model was developed as a single object, baking down multiple alpha layers of textures onto one set of textures. This keeps draw calls at a minimum.</p>
         <div>
             <img src="../images/generator/wireframe.png" />
         </div>
-        <p>The original shader is complex, with a couple of PBR shaders that are mixed using a separate texture map:</p>
+        <p>The original shader is has a few layers, with a couple of PBR shaders that are mixed using a separate texture map:</p>
         <div><img src="../images/generator/shader.png" /></div>
         <p>These are ultimately baked down into a single PBR material with albedo, metallic, roughness and normal channels. I use the
             <a href="https://blendermarket.com/products/simplebake---simple-pbr-and-other-baking-in-blender-2" target="_blank">SimpleBake add-on</a>

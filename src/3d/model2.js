@@ -119,4 +119,4 @@ function viewport3d(container, model, camx = 1.3, camy = 0.1, camz = -0.7)
     
 }
 
-viewport3d('model-container1', '../../models/Generator.gltf', -1.6, 0.2, -1.5);
+viewport3d('model-container1', '/models/Generator.gltf', -1.5, 0, -2.0);

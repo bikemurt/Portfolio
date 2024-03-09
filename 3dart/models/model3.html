@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Burt - 3D Art Portfolio - Hard Surface Modeling</title>
+    <title>Michael Burt Jared - 3D Art Portfolio</title>
     <script src="/src/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="/src/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
@@ -22,7 +22,6 @@
     <div class="top">
         <header onclick="window.location.href ='/'; ">
             <h1 id="header"></h1>
-            <h2>3D Art Portfolio</h2>
         </header>
     
         <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
@@ -32,9 +31,13 @@
         </div>
     </div>
 
-    <section id="section1" class="s1">
+    <section>
+        <div class="interactive">
+            <p id="interactive-desktop">Rotate with left click, zoom with scroll wheel, pan with right click. </p>
+            <p id="interactive-mobile">Pinch to zoom/pan.</p>
+        </div>
         <div class="model-top">
-            <h1>Futuristic Scope</h1>
+            <h2>Futuristic Scope</h2>
             <p>[Oct 21, 2023] Practice piece. 2k textures/26,909 tris</p>
         </div>
         <div id="model-container1" class="model-container"></div>

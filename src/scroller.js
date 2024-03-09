@@ -1,24 +1,14 @@
 
 function parallax() {
     var scrollPosition = $(window).scrollTop();
-    
-    for (var i = 0; i < sections.length; i++)
-    {
-        var s = sections[i];
-        var offset = $("#" + s).position().top - $("#section1").position().top;
-
-        $("#" + s).css('background-position', 'center ' + (-scrollPosition * 0.5 - offset) + 'px');
-        
-    }
-
+    var new_offset = (-scrollPosition * 1.2);
+    $("body").css('background-position', 'center ' + new_offset + 'px');
 }
 
 $(document).ready(function () {
     $(window).scroll(function () {
         parallax();
     });
-
-    parallax();
 });
 
 function loadMenu(menuPath, menuID)

@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Burt - 3D Art Showcase - Blender Add-ons</title>
-    <script src="../src/jquery-3.6.4.min.js"></script>
-    <link rel="stylesheet" href="../src/style.css">
+    <title>Michael Burt Jared - 3D Art Portfolio</title>
+    <script src="/src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/src/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-    <script src="../src/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="/src/fontawesome.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="top">
         <header onclick="window.location.href ='/'; ">
             <h1 id="header"></h1>
-            <h2>3D Art Portfolio</h2>
         </header>
     
         <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
@@ -23,25 +22,21 @@
         </div>
     </div>
 	
-    <section id="section1" class="section s1">
-        <h1>Blender Godot Pipeline Addon</h1>
+    <section>
+        <h2>Blender Godot Pipeline Addon</h1>
         <p>This add-on streamlines many aspects of bringing in assets from Blender to Godot.</p>
         <p>A free <u>companion</u> addon on the Godot side of things can be found on the
             <a href="https://godotengine.org/asset-library/asset/2562" target="_blank">Godot Asset Library</a>.
         </p>
         <a href="https://blendermarket.com/products/blender-godot-pipeline-addon" target="_blank"><img src="../images/addons/godot-pipeline2.png" /></a>
         <p><a href="https://blendermarket.com/products/blender-godot-pipeline-addon" target="_blank">Download on Blender Market</a></p>
-    </section>
 
-    <section id="section2" class="section s2">
-        <h1>Blender Edge Groups Addon</h1>
+        <h2>Blender Edge Groups Addon</h1>
         <p>This addon enables Blender artists to use an edge group workflow, very similar to the built in vertex group feature.</p>
         <a href="https://blendermarket.com/products/blender-edge-groups-addon" target="_blank"><img src="../images/addons/edge-groups2.png" /></a>
         <p><a href="https://blendermarket.com/products/blender-edge-groups-addon" target="_blank">Download on Blender Market</a></p>
-    </section>
 
-    <section id="section3" class="section s3">
-        <h1>Godot Vertex Painter Addon (Free)</h1>
+        <h2>Godot Vertex Painter Addon (Free)</h1>
         <p>A simple tool to paint vertex colors on MeshInstance3Ds.</p>
         <a href="https://github.com/bikemurt/godot-vertex-painter" target="_blank"><img src="../images/addons/vertex-painter.png" /></a>
         <p><a href="https://github.com/bikemurt/godot-vertex-painter" target="_blank">Download on GitHub</a></p>
@@ -49,9 +44,6 @@
 
     <p style="text-align: center; " id="footer"></p>
     
-    <script>
-        var sections = ['section1', 'section2', 'section3'];
-    </script>
     <script src="../src/scroller.js"></script>
 </body>
 </html>

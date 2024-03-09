@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Burt - Simulation</title>
-    <script src="../src/jquery-3.6.4.min.js"></script>
-    <link rel="stylesheet" href="../src/style.css">
+    <title>Michael Burt Jared - Simulation</title>
+    <script src="/src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/src/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-    <script src="../src/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="/src/fontawesome.js" crossorigin="anonymous"></script>
     <script type="importmap">
     {
         "imports":
         {
-            "three": "./src/threejs/build/three.module.min.js",
-            "three/addons/": "./src/threejs/examples/jsm/"
+            "three": "/src/threejs/build/three.module.min.js",
+            "three/addons/": "/src/threejs/examples/jsm/"
         }
     }
     </script>
@@ -22,7 +22,6 @@
     <div class="top">
         <header onclick="window.location.href ='/'; ">
             <h1 id="header"></h1>
-            <h2>Industrial Simulation</h2>
         </header>
     
         <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
@@ -31,8 +30,12 @@
         </div>
     </div>
 	
-    <section id="section1" class="section s1">
-        <h1>Machine Simulation Through Ignition</h1>
+    <section>
+        <h2>Industrial Simulation</h2>
+        <p>
+            One of my other key interests is simulation (3D or otherwise) for industrial control systems.
+            It's a fasincating way to learn about the ins-and-outs of a control system before actually seeing it in the field.
+        </p>
         <p>
             During my career I have made many detailed machine simulations using the Ignition platform:
         </p>
@@ -49,11 +52,9 @@
             <li>Use of direct OPC reads/writes + SFCs for round-trip communications as fast as 50ms</li>
             <li>Use visual templates and UDTs for ease of creation</li>
         </ul>
-    </section>
-
-    <section id="section2" class="section s2">
-        <h1>Scada Sim 3D</h1>
-        <p>A project to connect the Ignition (SCADA) and Godot (3D) technologies for the purposes of simulation and 3D visualization.</p>
+        
+        <h2>Scada Sim 3D</h2>
+        <p>An ongoing project to connect the Ignition (SCADA) and Godot (3D) technologies for the purposes of simulation and 3D visualization.</p>
         <p>Some high level details of the project:</p>
         <ul class="bullet-list">
             <li>Leverage Ignition's OPC-UA architecture to talk to many different hardware platforms</li>
@@ -69,9 +70,6 @@
 
     <p style="text-align: center; " id="footer"></p>
     
-    <script>
-        var sections = ['section1', 'section2'];
-    </script>
     <script src="../src/scroller.js"></script>
 </body>
 </html>

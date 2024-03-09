@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Burt - Portfolio</title>
-    <script src="src/jquery-3.6.4.min.js"></script>
-    <link rel="stylesheet" href="src/style.css">
+    <title>Michael Jared Portfolio</title>
+    <script src="/src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/src/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-    <script src="../src/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="/src/fontawesome.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+        "imports":
+        {
+            "three": "/src/threejs/build/three.module.min.js",
+            "three/addons/": "/src/threejs/examples/jsm/"
+        }
+    }
+    </script>
 </head>
 <body>
     <div class="top">
         <header onclick="window.location.href ='/'; ">
             <h1 id="header"></h1>
-            <h2>Portfolio</h2>
         </header>
     
         <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
@@ -21,46 +29,71 @@
             <div id="menu"></div>
         </div>
     </div>
-
-    <section id="section1" class="s1">
-        <h1>About</h1>
-        <p>
-            This website serves as a portfolio for my work in teaching, 3D modeling, and industrial simulations (digital twins).
+	
+    <section>
+        <h2>Hey there!</h2>
+        <p>My name is Michael Jared and I'm a game developer. Well, technically I'm an electrical engineer.
+            I tend to dabble in a lot of things.
         </p>
-        <p>If you would like to get in touch with me regarding any of my projects, the best way is to DM on
-            <a href="/contact">X</a>.</p>
+        <p>I'm currently working on a game called
+            <a href="https://michaeljared.itch.io/a-beavers-tale" target="_blank">A Beaver's Tale</a>.
+            Play the open beta on itch!</p>
+        <p>Best way to reach me (if we haven't connected on Discord) is through X.</p>
+        <p style="padding-left: 5px; padding-right: 5px; " id="social_links">
+            <a href="https://michaeljared.itch.io/" target="_blank" class="socials" style="background: #444; ">
+                <span class="fa-brands fa-itch-io"></span>
+                itch.io
+            </a>
+            <a href="https://bsky.app/profile/michaeljared.bsky.social" target="_blank" class="socials" style="background: #333; ">
+                <span class="fa-solid fa-envelope"></span>
+                BlueSky
+            </a>
+            <a href="https://twitter.com/_michaeljared" target="_blank" class="socials">
+                <span class="fa-brands fa-twitter"></span>
+                X
+            </a>
+            <a href="https://www.youtube.com/@michaeljburt" target="_blank" class="socials">
+                <span class="fa-brands fa-youtube"></span>
+                Youtube
+            </a>
+            <a href="https://github.com/bikemurt/" target="_blank" class="socials">
+                <span class="fa-brands fa-github"></span>
+                GitHub
+            </a>
+            <a href="https://blendermarket.com/creators/michaeljared" target="_blank" class="socials">
+                <span class="fa-solid fa-shop"></span>
+                Blender Market
+            </a>
+            <a href="https://michaeljared.artstation.com/" target="_blank" class="socials">
+                <span class="fa-brands fa-artstation"></span>
+                Artstation
+            </a>
+            <a href="https://soundcloud.com/user-570441519" target="_blank" class="socials">
+                <span class="fa-brands fa-soundcloud"></span>
+                Soundcloud
+            </a>
+            <a href="https://www.linkedin.com/in/mjburt/" target="_blank" class="socials">
+                <span class="fa-brands fa-linkedin"></span>
+                LinkedIn
+            </a>
+        </p>
     </section>
-
-    <section id="section2" class="s2">
-        <div class="navhomepage">
-            <div class="block" onclick="window.location.href = '/teaching/'; ">
-                <h2>Teaching</h2>
-                <div class="content">
-                    <p>I teach engineering technology at Polytechnic Colleges in Southern Ontario (currently Mohawk).</p>
-                </div>
-            </div>
-
-            <div class="block" onclick="window.location.href = '/simulation/'; ">
-                <h2>Industrial Simulation</h2>
-                <div class="content">
-                    <p>Ignition simulators for control systems, as well as a new project using the Godot game engine.</p>
-                </div>
-            </div>
-            
-            <div class="block" onclick="window.location.href = '/3dart/'; ">
-                <h2>3D Art</h2>
-                <div class="content">
-                    <p>My portfolio for hard surface modeling, animation and game development.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <script>
+$(document).ready(function() {
+    $('#social_links a').each(function(index) {
+        if (index % 2 == 0) {
+            $(this).css('background-color', '#444');
+        } else {
+            $(this).css('background-color', '#333');
+        }
+    });
+});
+    </script>
     <p style="text-align: center; " id="footer"></p>
     
     <script>
-        var sections = ['section1', 'section2'];
+        var sections = ['section1'];//, 'section2'];
     </script>
-    <script src="src/scroller.js"></script>
+    <script src="/src/scroller.js"></script>
 </body>
 </html>

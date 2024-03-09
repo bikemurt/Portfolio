@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    letter-spacing: 1px;
     background: linear-gradient(rgb(35, 47, 63), rgb(11, 16, 31), rgb(35, 47, 63));
     color: #c0c0c0;
 }

@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'arvoregular';
+    src: url('fonts/arvo-regular-webfont.woff2') format('woff2'),
+         url('fonts/arvo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'arvoregular';
     background: linear-gradient(rgb(35, 47, 63), rgb(11, 16, 31), rgb(35, 47, 63));
     color: #c0c0c0;
 }

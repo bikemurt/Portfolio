@@ -97,7 +97,7 @@ function viewport3d(container, model, camx = 1.3, camy = 0.1, camz = -0.7)
     
         // Animate the model
         var count = 0;
-        var getcam = false;
+        var getcam = true;
         const animate = function () {
             requestAnimationFrame(animate);
             renderer.render(scene, camera);
@@ -108,7 +108,8 @@ function viewport3d(container, model, camx = 1.3, camy = 0.1, camz = -0.7)
                 count++;
                 if (count >= 600) // every 10s display the cam position
                 {
-                    console.log(container + " -> " + controls.object.position.x + ","+controls.object.position.y+","+controls.object.position.z);
+                    //console.log(container + " -> " + controls.object.position.x + ","+controls.object.position.y+","+controls.object.position.z);
+                    console.log(container + " -> " + camera.position.x + ","+camera.position.y+","+camera.position.z);
                     count = 0;
                 }
             }
@@ -119,4 +120,5 @@ function viewport3d(container, model, camx = 1.3, camy = 0.1, camz = -0.7)
     
 }
 
-viewport3d('model-container1', '/models/Turret.gltf', -3.7, 2.5, 4.2);
+
+viewport3d('model-container1', '/models/Zombie.gltf', -0.043, -0.155, 0.765);

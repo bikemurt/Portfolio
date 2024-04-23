@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Jared - 3D Art Portfolio</title>
+    <script src="/src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script src="/src/fontawesome.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+        "imports":
+        {
+            "three": "/src/threejs/build/three.module.min.js",
+            "three/addons/": "/src/threejs/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="top">
+        <header onclick="window.location.href ='/'; ">
+            <h1 id="header"></h1>
+        </header>
+    
+        <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
+        <div id="menu-wrapper">
+            <div id="menu"></div>
+            <div id="menu3dart"></div>
+        </div>
+    </div>
+
+    <section>
+        <div class="interactive">
+            <p id="interactive-desktop">Rotate with left click, zoom with scroll wheel, pan with right click. </p>
+            <p id="interactive-mobile">Pinch to zoom/pan.</p>
+        </div>
+        <div class="model-top">
+            <h2>Drone Turret</h2>
+            <p>[Jan 16, 2024] 2k textures/15k tris</p>
+        </div>
+        <div id="model-container1" class="model-container"></div>
+        <div>
+            <p><a href="/3dart/index.html">Previous</a> | <a href="/3dart/models/model5.html">Next</a></p>
+        </div>
+    </section>
+
+    <p style="text-align: center; " id="footer"></p>
+    
+    <div id="visits"></div>
+
+	<script type="module" src="/src/3d/model6.js"></script>
+    <script src="/src/scroller.js"></script>
+</body>
+</html>

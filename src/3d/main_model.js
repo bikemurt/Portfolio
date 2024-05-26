@@ -94,7 +94,7 @@ function viewport3d(container, model, camx = 1.3, camy = 0.1, camz = -0.7)
         
         const rectLightHelper2 = new RectAreaLightHelper( rectLight2 );
         //rectLight.add( rectLightHelper2 );
-    
+        renderer.setClearColor( 0xffffff, 0);
         // Animate the model
         var count = 0;
         var getcam = false;

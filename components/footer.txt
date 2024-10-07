@@ -1,3 +1,3 @@
-Last updated 2024-05-26
+Last updated 2024-10-06
 <br />Made with three.js and jQuery.
 The code for this website is <a href="https://github.com/bikemurt/" target="_blank">available on my GitHub</a>.

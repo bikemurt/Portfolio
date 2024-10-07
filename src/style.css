@@ -11,48 +11,52 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'arvoregular';
-    background: linear-gradient(rgb(35, 47, 63), rgb(11, 16, 31), rgb(35, 47, 63));
-    color: #c0c0c0;
+    background: #f8f7f2;
+    color: #222;
 }
 
 .top {
-    background: #777;
+    
 }
 
 header {
-    background: linear-gradient(rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 1)), url('../images/section_bg.png') center/cover repeat-y;
+    background:  linear-gradient(rgb(102, 83, 54), #ddd8c5);
     padding: 20px;
     text-align: center;
     cursor: pointer;
+    color: black;
+}
+
+section {
+    width: 50%;
+    margin: 0px auto;
+    padding-bottom: 80px;
+    padding-top: 40px;
 }
 
 h1 {
     font-size: 2em;
     margin: 0px;
     padding: 0px;
-    margin-top: 10px;
 }
 
 h2 {
     font-size: 1.5em;
     margin: 0px;
     padding: 0px;
-    margin-top: 10px;
-    color: #3498db;
 }
 
 p {
     font-size: 1.3em;
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
 }
 
 header h1 {
-    color: #3498db;
 }
 
 .menu-container {
-    background: #333;
+    background: #bfb9a5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +75,7 @@ header h1 {
 }
 
 .current-page a {
-    color: #3498db;
+    color: #4b3808;
 }
 
 .menu-item a {
@@ -83,21 +87,24 @@ header h1 {
     text-decoration: underline;
 }
 
-section {
+.model {
     text-align: center;
 }
 
-section p {
-    max-width: 1200px;
-    margin: 0px auto;
-    padding: 10px;
+.model h2 {
+    margin-top: 20px;
+}
+.model p {
+    margin-top: 20px;
+}
+.model ul {
+    margin-top: 20px;
+    text-align: left;
 }
 
-section h1
-{
-    padding: 20px;
-    padding-bottom: 0px;
-    margin: 0px;
+.model image {
+    width: 50%;
+    height: 50%;
 }
 
 .model-top {
@@ -105,39 +112,49 @@ section h1
 }
 
 .model-container {
-    width: 50%;
-    height: 50vh;
+    width: 100%;
+    height: 70vh;
     margin: 0px auto;
     margin-top: 10px;
+    background: linear-gradient(rgb(35, 47, 63), rgb(11, 16, 31), rgb(35, 47, 63));
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
 
 .bullet-list {
-    max-width: 700px;
-    text-align: left;
-    margin: 0px auto;
-    margin-top: 10px;
     list-style-type: square;
     font-size: 1.3em;
     font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 35px;
 }
 
 .bullet-list li {
     margin: 0px;
     padding: 0px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
 a, .fakelink {
     font-weight: bold;
     text-decoration: underline;
-    color: #c0c0c0;
+    color: black;
     cursor: pointer;
 }
 
 a:active {
-    color: #c0c0c0;
+    color: black;
 }
 
 img {
@@ -146,14 +163,18 @@ img {
 
 .socials {
     font-size: 1.2em;
-    max-width: 700px;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid black;
-    margin: 0 auto 5px auto;
+    margin-bottom: 3px;
     
     display: block;
     text-decoration: none;
+    text-align: center;
+    background: #f8f7f2;
+}
+
+.fa-brands, .fa-solid {
 }
 
 #mobile-menu {
@@ -163,22 +184,25 @@ img {
     padding-left: 30px;
     font-size: 1.5em;
     border-bottom: 1px solid #333;
-    background: #333;
+    background: #bfb9a5;
 }
 #mobile-menu span
 {
     padding-right: 20px;
 }
+
 #menu3d {
     background: #444;
 }
 
 
 #footer {
-  font-size: 1.1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
   border-top: 3px solid rgb(25, 25, 25);
-  border-bottom: 3px solid rgb(25, 25, 25);
-  background: rgba(25, 25, 25, 0.5);
+  background: #ddd8c5;
+  color: black;
 }
 
 .interactive {
@@ -225,7 +249,7 @@ video {
         font-size: 1.3em;
     }
     .model-container {
-        width: 90%;
+        height: 50vh;
     }
     .navhomepage {
         display: none;
@@ -248,4 +272,15 @@ video {
     video {
         width: 100%; height: auto; 
     }
+    section {
+        width: 90%;
+    }
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        grid-gap: 15px;
+        margin-left: 25px;
+    }
+
 }

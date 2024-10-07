@@ -27,40 +27,26 @@
         <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
         <div id="menu-wrapper">
             <div id="menu"></div>
-            <div id="menu3dart"></div>
         </div>
     </div>
 
-    <section>
+    <section class="model">
+        <div class="model-top">
+            <h2>Sci-Fi Industrial Crate</h2>
+            <p>[Nov 9, 2023] Game ready asset. 1k textures/1,168 tris</p>
+        </div>
         <div class="interactive">
             <p id="interactive-desktop">Rotate with left click, zoom with scroll wheel, pan with right click. </p>
             <p id="interactive-mobile">Pinch to zoom/pan.</p>
         </div>
-        <div class="model-top">
-            <h2>Cyberpunk Case</h2>
-            <p>[Dec 20, 2023] Portfolio piece only (<a href="https://www.artstation.com/artwork/Dv1nzG" target="_blank">reference</a>). 2k textures/9,828 tris</p>
-            <p><span class="fakelink" onclick="$('#case-workflow').toggle(); ">Show Workflow</span></p>
-            <ul class="bullet-list" id="case-workflow" style="display: none">
-                <li>Poly modeled several distinct components using a boolean/bevel workflow.</li>
-                <li>Auto smooth + harden normals to create clean shading with minimal geometry.</li>
-                <li>Mark seams, UV unwrap and rescale islands as appropriate.</li>
-                <li>Merge separate objects pieces with custom-split normals enabled on all objects to maintain shading.</li>
-                <li>Place UV islands onto single object UV map.</li>
-                <li>Develop layered shader in Blender to allow for multiple layers of paint (alpha blending) and stencils</li>
-                <li>Bake to single texture set using SimpleBake</li>
-            </ul>
-        </div>
         <div id="model-container1" class="model-container"></div>
-        <div>
-            <p><a href="/3dart/models/model6.html">Previous</a> | <a href="/3dart/models/model4.html">Next</a></p>
-        </div>
     </section>
 
     <p style="text-align: center; " id="footer"></p>
     
     <div id="visits"></div>
 
-	<script type="module" src="/src/3d/model5.js"></script>
+	<script type="module" src="/src/3d/scifi-crate.js"></script>
 
     <script>
         var sections = ['section1'];

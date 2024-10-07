@@ -120,5 +120,4 @@ function viewport3d(container, model, camx = 1.3, camy = 0.1, camz = -0.7)
     
 }
 
-
-viewport3d('model-container1', '/models/Case.gltf', 2, 0.6, 1.9);
+viewport3d('model-container1', '/models/Case.gltf', 2.5, 1.1, 2.4);

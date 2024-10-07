@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Jared - Game Engine Tooling</title>
+    <script src="/src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script src="/src/fontawesome.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top">
+        <header onclick="window.location.href ='/'; ">
+            <h1 id="header"></h1>
+        </header>
+    
+        <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
+        <div id="menu-wrapper">
+            <div id="menu"></div>
+        </div>
+    </div>
+	
+    <section>
+        <h2>Game Engine Tooling</h2>
+        <p style="margin-top: 40px; ">Creating tooling for game engines and 3D applications
+            is something I have a passion for. I think it's for the same reason people love city builders:
+            you learn how to do a thing, and then optimize the heck out of it.
+        </p>
+        <ul class="bullet-list" style="margin-top: 20px; ">
+            <li><a href="https://blendermarket.com/products/blender-godot-pipeline-addon" target="_blank">Blender-Godot 4 Pipeline</a>:
+                a tool that enables you to encode all kinds of
+                collisions, properties, game logic, and so on, into 3D objects inside Blender.
+            </li>
+            <li style="margin-top: 30px; ">
+                <a href="https://github.com/bikemurt/godot-vertex-painter" target="_blank">Godot 4 Vertex Painting Tool</a>:
+                As the name implies
+            </li>
+            <li style="margin-top: 30px; ">
+                Vertex Color Pipeline: Hopefully more on this soon. Heavily inspired by
+                <a href="https://www.youtube.com/watch?v=FodXp5BkENk" target="_blank">The Ascent</a>
+                GDC talk.
+            </li>
+        </ul>
+    </section>
+
+    <p style="text-align: center; " id="footer"></p>
+    
+    <script src="/src/scroller.js"></script>
+</body>
+</html>

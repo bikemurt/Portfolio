@@ -1,8 +1,8 @@
 <div class="menu-container">
     <ul class="menu">
-        <li class="menu-item"><a href="/tooling/">Engine Tooling</a></li>
-        <li class="menu-item"><a href="/3dart/">3D Work</a></li>
-        <li class="menu-item"><a href="/teaching/">Teaching</a></li>
-        <li class="menu-item"><a href="/simulation/">Industrial Simulation</a></li>
+        <li class="menu-item"><a href="/tooling/"><i class="fa-solid fa-wrench"></i> Engine Tooling</a></li>
+        <li class="menu-item"><a href="/3dart/"><i class="fa-solid fa-cube"></i> 3D Work</a></li>
+        <li class="menu-item"><a href="/teaching/"><i class="fa-solid fa-user"></i> Teaching</a></li>
+        <li class="menu-item"><a href="/simulation/"><i class="fa-solid fa-industry"></i> Industrial Simulation</a></li>
     </ul>
 </div>

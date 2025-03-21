@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Jared - Software Contracting</title>
+    <script src="/src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script src="/src/fontawesome.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top">
+        <header onclick="window.location.href ='/'; ">
+            <h1 id="header"></h1>
+        </header>
+    
+        <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
+        <div id="menu-wrapper">
+            <div id="menu"></div>
+        </div>
+    </div>
+	
+    <section>
+        <h2>Software Contracting</h2>
+        <p style="margin-top: 20px; ">
+            I offer software contracting services under my sole proprietorship <i>Michael Jared Software</i>. I specialize in real-time
+            applications in the industrial controls simulation industry as well as the videogames industry. If you would like to connect
+            and get my help with an application, please reach out to me on 
+            <a href="https://www.linkedin.com/in/mjburt/" target="_blank">LinkedIn</a>.
+        </p>
+        <ul class="bullet-list" style="margin-top: 20px; ">
+            <li>Industry experience with low level C and C++ code</li>
+            <li>Experience with a variety of build systems (CMAKE, scons)</li>
+            <li>Experience with library integration (dynamic, static linking, tailoring compile flags to meet a project's goals)</li>
+            <li>Multi-threaded applications</li>
+            <li>High language competency: C/C++, C#, Java, Python, Visual Basic</li>
+        </ul>
+        
+        <h2 style="margin-top: 40px; ">Examples of Work</h2>
+        <ul class="bullet-list" style="margin-top: 20px; ">
+            <li>Open Industry Project communications GDextension C++ module (PLC and OPC UA communications development)
+                <a href="https://github.com/bikemurt/OIP_gdext/tree/main" target="_blank">[link]</a></li>
+            <li>Blender 4.3 merged PR to upgrade Bevel modifier. Support "edge groups" to help compete with other modeling software
+                <a href="https://projects.blender.org/blender/blender/pulls/117366" target="_blank">[link]</a>
+            </li>
+            <li>Various contributions to the Godot engine</li>
+            <li>Please contact to discuss proprietary work (non open source) in the industrial controls and simulation industry.
+                This includes PLC, HMI/SCADA, MES programming</li>
+        </ul>
+
+        <h2 style="margin-top: 40px; ">Legal Disclaimer</h2>
+        <p style="margin-top: 20px; ">I generally develop open source software under the
+            <a href="https://opensource.org/license/mit" target="_blank">MIT license</a>.
+        If an MIT license is not being used, I adhere to the license requirements of the software I am working on.
+        I am not currently taking on contracts that do not allow me to use an open source license.
+        </p>
+        
+    </section>
+
+    <p style="text-align: center; " id="footer"></p>
+    
+    <script src="../src/scroller.js"></script>
+</body>
+</html>

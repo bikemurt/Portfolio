@@ -1,5 +1,6 @@
 <div class="menu-container">
     <ul class="menu">
+        <li class="menu-item"><a href="/contracting/"><i class="fa-solid fa-cog"></i> Software Contracting</a></li>
         <li class="menu-item"><a href="/tooling/"><i class="fa-solid fa-wrench"></i> Engine Tooling</a></li>
         <li class="menu-item"><a href="/3dart/"><i class="fa-solid fa-cube"></i> 3D Work</a></li>
         <li class="menu-item"><a href="/teaching/"><i class="fa-solid fa-user"></i> Teaching</a></li>

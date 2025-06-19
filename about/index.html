@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Jared Software - About</title>
+    <meta name="description" content="Michael Jared Software is an indie game studio creating Bushcraft Survival - a dark and immersive survival experience in the wilderness. Explore, craft, and survive.">
+    <meta property="og:title" content="Bushcraft Survival - Michael Jared Software" />
+    <meta property="og:description" content="Explore, craft, and survive in this dark, wilderness survival game. Created by Michael Jared Software." />
+    <meta property="og:image" content="https://michaeljared.ca/images/logos/bushcraft_cover.jpg" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://michaeljared.ca/" />
+    <meta property="og:type" content="website" />
+    <script src="/src/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script src="/src/fontawesome.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top">
+        <header onclick="window.location.href ='/'; ">
+            <h1 id="header"></h1>
+        </header>
+    
+        <div id="mobile-menu" onclick="$('#menu-wrapper').toggle(); "><span class="fa-solid fa-bars"></span> Portfolio</div>
+        <div id="menu-wrapper">
+            <div id="menu"></div>
+        </div>
+    </div>
+	
+    <section>
+        <h2>About</h2>
+        <p style="margin-top: 40px; ">
+            Michael Jared Software focuses on two streams of activites: videogame development and <a href="/contracting">software contracting</a>.
+        </p>
+        <h2 style="margin-top: 40px; ">Videogame Development</h2>
+        <p style="margin-top: 20px; ">
+            The owner of the company, Michael Burt, currently is developing a passion project called "Bushcraft Survival". The project is 
+            a return to his roots; growing up in Newfoundland and spending time in the bush.
+        </p>
+        <p style="margin-top: 20px; ">
+            The studio focuses on <b>data driven</b> and <b>community focused</b> development. This means executing projects highly iteratively,
+            and gaining feedback from players and playtesters as early and often as possible.
+        </p>
+        <p style="margin-top: 20px; ">
+            Bushcraft Survival has validated the niche market it is targeting by looking at a number of metrics such as: median play time,
+            total unique play tester counts, active daily users, % of players who quit the game prior to completing a round, % of players who
+            finish a round, % of players who return to play again, and so on.
+        </p>
+        <h2 style="margin-top: 40px;">Now Hiring!</h2>
+        <p style="margin-top: 20px;">Please see roles listed on the <a href="/contact">Contact</a> page.</p>
+    </section>
+
+    <p style="text-align: center; " id="footer"></p>
+    
+    <script src="../src/scroller.js"></script>
+</body>
+</html>

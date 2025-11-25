@@ -1,7 +1,6 @@
 <div class="menu-container">
     <ul class="menu">
         <li class="menu-item"><a href="/"><i class="fa-solid fa-tree"></i> Bushcraft Survival</a></li>
-        <li class="menu-item"><a href="/hiring/"><i class="fa-solid fa-briefcase"></i> Hiring</a></li>
         <li class="menu-item"><a href="/tooling/"><i class="fa-solid fa-wrench"></i> Engine Tooling</a></li>
         <li class="menu-item"><a href="/contracting/"><i class="fa-solid fa-cog"></i> Software Contracting</a></li>
         <li class="menu-item"><a href="/about/"><i class="fa-solid fa-person"></i> About</a></li>
